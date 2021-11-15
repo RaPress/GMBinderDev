@@ -30,7 +30,7 @@
 
   /* Headers */
   --color-headers-main: var(--color-secondary);
-  --img-header-banner: url("/SotDL-Homebrew/assets/img/backgrounds/header-banner.png");
+  --img-header-banner: url("/img/backgrounds/header-banner.png");
   --color-header-border: var(--color-primary);
   --font-size-title: var(--font-size-octonary);
   --font-size-title-banner: var(--font-size-septenary);
@@ -43,11 +43,11 @@
   --font-size-h6: var(--font-size-primary);
 
   /* Backgrounds */
-  --img-main-bg: url("/SotDL-Homebrew/assets/img/backgrounds/sotdl_background.jpg");
-  --img-bg-border: url("/SotDL-Homebrew/assets/img/backgrounds/sotdl_background_border.png");
-  --img-bg-page-number: url("/SotDL-Homebrew/assets/img/backgrounds/pentagram.png");
-  --img-parchment: url("/SotDL-Homebrew/assets/img/backgrounds/parchment.png");
-  --img-parchment-long: url("/SotDL-Homebrew/assets/img/backgrounds/parchment-long.png");
+  --img-main-bg: url("/img/backgrounds/sotdl_background.jpg");
+  --img-bg-border: url("/img/backgrounds/sotdl_background_border.png");
+  --img-bg-page-number: url("/img/backgrounds/pentagram.png");
+  --img-parchment: url("/img/backgrounds/parchment.png");
+  --img-parchment-long: url("/img/backgrounds/parchment-long.png");
 
   /* Monster Stat Blocks */
   --color-monster-h1-bg: var(--color-primary);
@@ -60,12 +60,12 @@
   --color-table-alt-bg: var(--color-quaternary);
 
   /* Blends */
-  --blend-half-vertical: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png");
-  --blend-half-horizontal: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png");
-  --blend-corner: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png");
-  --blend-onethird: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png");
-  --blend-twothirds: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png");
-  --blend-corner-inverted: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted.png");
-  --blend-corner-inverted-small: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted-small.png");
-  --blend-corner-quarter: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-quarter.png");
+  --blend-half-vertical: url("/img/blends/sotdl-blend-half-vertical.png");
+  --blend-half-horizontal: url("/img/blends/sotdl-blend-half-horizontal.png");
+  --blend-corner: url("/img/blends/sotdl-blend-corner.png");
+  --blend-onethird: url("/img/blends/sotdl-blend-onethird.png");
+  --blend-twothirds: url("/img/blends/sotdl-blend-twothirds.png");
+  --blend-corner-inverted: url("/img/blends/sotdl-blend-corner-inverted.png");
+  --blend-corner-inverted-small: url("/img/blends/sotdl-blend-corner-inverted-small.png");
+  --blend-corner-quarter: url("/img/blends/sotdl-blend-corner-quarter.png");
 }

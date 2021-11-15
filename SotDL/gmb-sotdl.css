@@ -1,0 +1,204 @@
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/fonts/SotDL/stylesheet.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/utils/reset.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/globals.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/headers.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/cover.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/lists.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/tables.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/toc.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/blockquotes.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/stat-blocks.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/spells.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/page-number.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/credits.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/SotDL/ad-page.css");
+
+/** ---------- **/
+
+.brewRenderer .pages > .gmb {
+  margin-bottom: 10px;
+}
+
+@media print {
+  .gmb {
+    margin: 0;
+    height: 279.4mm;
+    width: 215.9mm;
+  }
+}
+
+.gmb {
+  font-family: var(--font-main);
+  background: var(--img-main-bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 279.4mm;
+  width: 215.9mm;
+  padding: 1cm 1cm 1cm 1cm;
+  column-fill: auto;
+  column-count: 2;
+  column-gap: 0.4cm;
+  column-width: 9cm;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 0.4cm;
+  -webkit-column-width: 9cm;
+  -moz-column-count: 2;
+  -moz-column-gap: 0.4cm;
+  -moz-column-width: 9cm;
+}
+
+.gmb a,
+.gmb .custom-external-link,
+.gmb .custom-internal-link {
+  color: var(--color-link);
+}
+
+/*** Containers ***/
+
+.gmb .text-container {
+  position: absolute;
+}
+
+.gmb .column-container {
+  column-count: 2;
+  column-span: all;
+}
+
+/*** Containers END***/
+
+/*** Layout ***/
+
+.gmb div.dual-tables {
+  column-count: 2;
+}
+
+.gmb div.dual-tables h4 {
+  margin-top: 0px;
+}
+
+.gmb div.placeholder-art {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  right: 20px;
+  bottom: 20px;
+  border: 15px ridge var(--color-strong-alt);
+}
+
+.gmb div.placeholder-art p {
+  flex: 0 0 30;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.gmb div.placeholder-art h6 {
+  font-size: 30pt;
+  margin: 10px 0 0 0;
+  border-bottom: none;
+}
+
+.gmb div.column-break + p,
+.gmb.ng-scope p {
+  text-indent: 1em;
+}
+
+/*** Layout END ***/
+
+/*** Bold ***/
+
+.gmb p strong {
+  font-family: var(--font-strong);
+  font-weight: normal;
+  font-size: 10pt;
+  color: var(--color-strong-alt);
+  letter-spacing: -0.02em;
+}
+
+.gmb strong em,
+.gmb em strong {
+  color: var(--color-strong-alt);
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* .gmb h5+p strong {
+    color: var(--color-strong);
+} */
+
+/*** Bold END ***/
+
+/* TOC END */
+
+/*** Note block ***/
+
+.gmb blockquote.note {
+  border: 1px solid orange;
+  border-image-source: var(--img-parchment);
+  border-image-slice: 20 fill;
+  border-image-width: 20;
+  border-image-outset: 5;
+  border-image-repeat: round;
+  padding: 20px 15px 20px 15px;
+  overflow: hidden;
+  height: auto;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.gmb blockquote.note table {
+  margin-bottom: 0.25em;
+}
+
+.gmb blockquote.note table tbody tr td {
+  line-height: 1.25em;
+}
+
+/*** Note block END ***/
+
+.gmb .descriptive {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  font-style: italic;
+  padding-left: 30px;
+}
+
+.gmb .descriptive h5 {
+  font-style: normal;
+  color: var(--color-text-main);
+  text-align: center;
+}
+
+.html-code code {
+  visibility: visible;
+  box-shadow: 1px 1px 1px black;
+  background-color: #aaa;
+  font-family: "Lucida Console";
+}
+
+.gmb hr {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0px 0px 0px;
+  position: relative;
+}
+
+/*** Use defult theme disclaimer ***/
+
+.phb#p1 div.default-disclaimer::after {
+  font-size: 26pt;
+  font-family: var(--font-main);
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  content: "Theme look weird? Click the cogs icon above, then check the 'Use default GM Binder Theme?' button.";
+}
+
+.gmb#p1 div.default-disclaimer::after {
+  content: "";
+}

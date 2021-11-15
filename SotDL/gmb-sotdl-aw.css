@@ -1,0 +1,347 @@
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/BlavickeCapitals/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CamleotCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CarrickCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CheshireInitials/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Ehmcke-FrakturInitialen/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/FloranaInitials/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/GothicCornerCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/GothicLeaf/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/GoudyInitialen/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/IceCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/KinigsteinCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/LimeBlossomCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Regal/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RomantiqueInitials/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RoyalInitialen/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Rudelsberg/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/SotDL/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/WolnoughCapitals/stylesheet.css');
+/** Global properties **/
+
+:root {
+    --img-header-banner: url(../img/backgrounds/header-banner.png);
+    --img-bg-border: none;
+    --img-main-bg-right: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book.png);
+    --img-main-bg-left: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book-left.png);
+    --color-text-main: #362518;
+    --color-strong: #362518;
+    --color-headers-alt: black;
+}
+
+/** Global properties END **/
+
+/**  **/
+
+.gmb p, .gmb ul li {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+td[style="text-align:left"] {
+    text-align: justify !important;
+    text-justify: inter-word;
+}
+
+.gmb:nth-child(even) {
+    padding: 1.0cm 1.0cm 1.0cm 1.75cm;
+    background: var(--img-main-bg-left);
+}
+
+.gmb:nth-child(odd) {
+    padding: 1.0cm 1.75cm 1.0cm 1.0cm;
+    background: var(--img-main-bg-right);
+}
+
+/*** Headers ***/
+
+.gmb h1 {
+    background-size: 100% 100%;
+    padding: 0px 0px 0px 0px;
+    margin: -10px 0px 10px 0px;
+    font-family: "First Order";
+    font-size: 45pt;
+    text-align: center;
+    font-weight: normal;
+    color: var(--color-headers-alt);
+    text-transform: uppercase;
+    -webkit-text-fill-color: var(--color-headers-alt);
+    border-bottom: double #333333;
+    border-top: double #333333;
+}
+
+.gmb h1+p::first-letter {
+    float: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+.gmb h1 {
+    font-size: 30pt;
+}
+
+.gmb h2 {
+    font-size: 20pt;
+}
+
+.gmb h3 {
+    font-size: 16pt;
+}
+
+.gmb h4 {
+    font-size: 13pt;
+}
+
+.gmb h5 {
+    font-size: 12pt;
+}
+
+.gmb h6 {
+    font-size: 10pt;
+}
+
+/*** Headers END ***/
+
+/*** Cover ***/
+
+.gmb div.cover h1 {
+    margin: 0;
+    background-image: none;
+    font-family: 'Poison Hope';
+    font-size: 50pt;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: #f3ebebd1;
+}
+
+.gmb div.cover h2 {
+    font-family: 'Poison Hope';
+    color: White;
+    font-size: 18pt;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+}
+
+.gmb div.cover div.issue-date h3 {
+    color: white;
+    font-size: 13pt;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/*** Cover END ***/
+
+/*** Footer issue no ***/
+
+.gmb div.footer-issue-no {
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 11pt;
+    color: var(--color-strong-alt);
+    position: absolute;
+    bottom: 20px;
+    background-color: initial;
+    padding: initial;
+    width: initial;
+    display: initial;
+    justify-content: initial;
+}
+
+.gmb:nth-child(even) .footer-issue-no {
+    left: 700px;
+}
+
+.gmb:nth-child(odd) .footer-issue-no {
+    left: 25px;
+}
+
+/*** Footer issue no END ***/
+
+/*** Layout ***/
+
+.gmb div.column-container {
+    column-count: 2;
+    column-span: all;
+}
+
+.gmb div.dual-tables {
+    column-count: 2;
+}
+
+/*** Layout END ***/
+
+/*** Bold ***/
+
+.gmb p strong, .gmb h5+p strong {
+    color: var(--color-strong);
+}
+
+/*** Bold END ***/
+
+/* Tables */
+
+.gmb h4.table+table thead th, h4.table+section div table thead th, li p+table thead th, p+table thead th, .gmb h5.table+table thead th, h5.table+section div table thead th {
+    background-color: var(--color-table-header-bg);
+    color: #ffffff;
+    font-family: "GothamBold";
+    font-size: 8pt;
+    padding: 3px 6px 3px 6px !important;
+    min-width: 34px;
+}
+
+.gmb div.tables table td {
+    padding-right: 10px;
+}
+
+/*** Tables END ***/
+
+/*** Blockquote ***/
+
+.gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
+    font-family: 'Poison Hope';
+    text-shadow: none;
+    background-image: none;
+    -webkit-text-fill-color: unset;
+}
+
+/*** Blockquote END ***/
+
+/*** Article ***/
+
+.gmb article.drop-cap p:first-child {
+    text-indent: 0;
+}
+
+.gmb article.drop-cap p:first-child:first-letter {
+    color: var(--color-text-main);
+    font-family: "gothic leaf";
+    float: left;
+    font-size: 80px;
+    line-height: 60px;
+    padding: 10px 0px 0 3px;
+}
+
+/*** Article END ***/
+
+/** Page number **/
+
+.gmb:nth-child(odd) .pageNumber {
+    left: 700px;
+}
+
+.gmb:nth-child(even) .pageNumber {
+    left: 70px;
+}
+
+.gmb:nth-child(odd)::after {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.gmb:nth-child(even)::after {
+    -moz-transform: none;
+    -o-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    filter: none;
+    -ms-filter: "";
+}
+
+.gmb:nth-child(even):after {
+    left: 30px;
+}
+
+.gmb:nth-child(odd):after {
+    left: -50px;
+}
+
+/*** Page number END ***/
+
+/*** Ad Page ***/
+
+.gmb div.ad-page {
+    column-span: all;
+    -webkit-column-span: all;
+    -moz-column-span: all;
+}
+
+.gmb div.ad-page h3 {
+    color: var(--color-main);
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+.gmb div.ad-page div.grid {
+    display: grid;
+    grid-template-columns: 150px 500px;
+    grid-gap: 2rem;
+}
+
+.gmb div.ad-page div.grid img {
+    width: 150px;
+    box-shadow: 7px 7px 5px 1px #1A1B1B;
+}
+
+/*** Ad Page END***/
+
+/*** Credits ***/
+
+.gmb div.credits h4 {
+    font-size: 20pt;
+}
+
+.gmb div.credits h4, .gmb div.credits h4+p {
+    display: block;
+    text-align: center;
+}
+
+.gmb div.credits ul li {
+    text-align: center;
+}
+
+.gmb div.credits h3+p {
+    font-size: 20px;
+}
+
+/*** Credits END ***/
+
+/*** Code ***/
+
+.gmb pre, .gmb code {
+    -webkit-column-break-after: always;
+    break-after: always;
+    -moz-column-break-after: always;
+    display: inline;
+    background-color: rgba(132, 74, 51, 0.2);
+    color: #800000;
+    padding: 0;
+}
+
+/*** Code END ***/
+
+/*** Toc ***/
+
+.gmb .toc {
+    position: absolute;
+    column-fill: auto;
+    column-count: 2;
+    column-gap: 0.4cm;
+    column-width: 8.25cm;
+}
+
+.gmb .toc h2 {
+    column-span: all;
+}
+
+/*** Toc END ***/

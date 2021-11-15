@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'sftitle';
+    src: url('sftitle.eot');
+    src: local('☺'), url('sftitle.woff') format('woff'), url('sftitle.ttf') format('truetype'), url('sftitle.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SSF4';
+    src: url('SSF4-Abuket.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industria';
+    src: url('industria.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dots';
+    src: url('sfrpgdings.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'Poison Hope';
+    src: url('PoisonHope-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+} */

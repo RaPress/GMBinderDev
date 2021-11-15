@@ -1,0 +1,16 @@
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/utils/reset.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/mythos/globals.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/mythos/headers.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/mythos/tables.css");
+
+.gmb {
+  background: none;
+  /* background: var(--color-gradient-main); */
+  background-color: var(--color-quaternary-glare);
+}
+
+.gmb p {
+  color: var(--color-text-primary);
+  font-family: var(--font-text-primary);
+  font-size: var(--font-size-main-text);
+}

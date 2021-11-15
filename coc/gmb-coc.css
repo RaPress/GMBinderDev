@@ -1,0 +1,37 @@
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/utils/reset.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/globals.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/headers.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/blockquotes.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/tables.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/lists.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/cover.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/stat-blocks.css");
+
+@media print {
+  .gmb {
+    margin: 0;
+    height: 279.4mm;
+    width: 215.9mm;
+  }
+}
+
+.gmb {
+  background: none;
+  background-color: var(--color-bg-main);
+  height: 279.4mm;
+  width: 215.9mm;
+  column-gap: 2rem;
+  column-width: 28rem;
+}
+
+.gmb p {
+  text-align: justify;
+  text-align-last: left;
+  font-family: var(--font-main);
+  font-size: var(--font-size-main);
+  color: var(--color-text-main);
+}
+
+.gmb h1 + p .gmb p + p {
+  text-indent: var(--indent-main);
+}

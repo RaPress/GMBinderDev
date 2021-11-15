@@ -1,0 +1,164 @@
+/*** ----- Color filtering -----
+/* Use this to find filter settings to turn white into a wanted color:
+/* https://codepen.io/sosuke/pen/Pjoqqp
+/*** ---------------------------
+
+/*** Images ***/
+
+img.corner-bottomright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: unset;
+    z-index: -3;
+}
+
+img.corner-bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: unset;
+    z-index: -3;
+}
+
+img.corner-topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: unset;
+    z-index: -3;
+}
+
+img.corner-topright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: unset;
+    z-index: -3;
+}
+
+img.half-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: unset;
+    z-index: -3;
+}
+
+img.half-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: unset;
+    z-index: -3;
+}
+
+img.half-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: unset;
+    z-index: -3;
+}
+
+img.half-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: unset;
+    z-index: -3;
+}
+
+/*** Images END ***/
+
+/*** Blending ***/
+
+.gmb .blend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    /* background-size: 100%; */
+}
+
+.right {
+    transform: scaleX(-1);
+}
+
+.top {
+    transform: scaleY(-1);
+}
+
+.top.right {
+    transform: scale(-1);
+}
+
+.half-v {
+    background-image: var(--blend-half-vertical);
+    background-size: 115%;
+}
+
+.half-h {
+    background-image: var(--blend-half-horizontal);
+}
+
+.corner {
+    background-image: var(--blend-corner);
+}
+
+.corner-inverted {
+    background-image: var(--blend-corner-inverted);
+}
+
+.corner-inverted-small {
+    background-image: var(--blend-corner-inverted-small);
+}
+
+.corner-quarter {
+    background-image: var(--blend-corner-quarter);
+}
+
+.onethird {
+    background-image: var(--blend-onethird);
+}
+
+.twothirds {
+    background-image: var(--blend-twothirds);
+}
+
+.half-v-alt {
+    background-image: var(--blend-half-vertical-alt);
+    background-size: 115%;
+}
+
+.half-h-alt {
+    background-image: var(--blend-half-horizontal-alt);
+}
+
+.corner-alt {
+    background-image: var(--blend-corner-alt);
+}
+
+.corner-inverted-alt {
+    background-image: var(--blend-corner-inverted-alt);
+}
+
+.corner-inverted-small-alt {
+    background-image: var(--blend-corner-inverted-small-alt);
+}
+
+.corner-quarter-alt {
+    background-image: var(--blend-corner-quarter-alt);
+}
+
+.onethird-alt {
+    background-image: var(--blend-onethird-alt);
+}
+
+.twothirds-alt {
+    background-image: var(--blend-twothirds-alt);
+}
+
+/*** Blending END ***/

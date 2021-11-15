@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'hemi head';
+	src: url('hemi head.eot');
+	src: local('☺'), url('hemi head.woff') format('woff'), url('hemi head.ttf') format('truetype'), url('hemi head.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

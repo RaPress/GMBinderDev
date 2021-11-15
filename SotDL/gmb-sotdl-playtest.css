@@ -1,0 +1,37 @@
+/** Global properties **/
+
+:root {
+    --img-main-bg: white;
+    --img-bg-border: none;
+    --img-bg-page-number: none;
+    --color-headers-main: black;
+    --color-text-main: black;
+    --color-strong: black;
+    --color-strong-alt: black;
+    --color-monster-h1-bg: black;
+    --color-monster-h2-bg: black;
+    --color-monster-h3-bg: #A7A9AC;
+    --color-header-border: black;
+    --color-table-header-bg: black;
+    --color-table-main-bg: initial;
+    --color-table-alt-bg: #A7A9AC;
+}
+
+/** Global properties END **/
+
+.gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
+    font-family: 'GothamBold';
+}
+
+.gmb hr+section blockquote h2+p {
+    color: var(--color-text-main);
+    background-color: var(--color-monster-h3-bg);
+    margin: 0;
+}
+
+.gmb img, .gmb .blend-half-right, .gmb .blend-half-left, .gmb .blend-half-top, .gmb .blend-half-bottom, .gmb .blend-corner-topright, .gmb .blend-corner-topleft, .gmb .blend-corner-bottomright, .gmb .blend-corner-bottomleft, .gmb .blend-corner-topright-inverted, .gmb .blend-corner-topleft-inverted, .gmb .blend-corner-topright-inverted-small, .gmb .blend-corner-topleft-inverted-small, .gmb .blend-onethird-top, .gmb .blend-onethird-bottom, .gmb .blend-twothirds-top, .gmb .blend-twothirds-bottom {
+    display: none;
+}
+
+.gmb img.dotdl, .gmb img.cover-logo, .gmb div.ad-page img {
+    display: initial;

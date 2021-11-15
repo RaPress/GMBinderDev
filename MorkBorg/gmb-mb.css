@@ -1,0 +1,1091 @@
+/** Import Fonts **/
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amarante&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Frijole&family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&family=Inconsolata:wght@400;700;900&family=Irish+Grover&family=Metal+Mania&family=Metamorphous&family=Rakkas&family=Ruslan+Display&family=Uncial+Antiqua&display=swap');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Alegreya/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Amstrong/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Andagis/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Annabel/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Aseina/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Atlantis/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Billiard/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/BlackVelvet2/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/BlavickeCapitals/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Deadhead Classic/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Burvetica/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CaliforniaFreestyle/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CallingCode/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CamleotCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CarrickCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CheshireInitials/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Chomsky/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CoolUrban90s/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Cunigast/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/DeadheadClassic/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Demonius/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Ehmcke-FrakturInitialen/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Expert/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/FetteTrumpDeutsch/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/FloranaInitials/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Giant/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/GothicCornerCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/GothicLeaf/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/GoudyInitialen/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Hillpark/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/History/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Hydrant/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/IceCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Insightly/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Jumbo/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Kiko/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/KinigsteinCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Lansdowne/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Lifer/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/LimeBlossomCaps/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Lovesurely/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Metal/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Mindset/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/MonAmourFrakturBroken/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Murray/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/NewCapricorn/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Obsypac/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Octopus/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/OldNewspaperTypes/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Ollie/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Pittsbrook/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Ravenholm/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Regal/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Riotic/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Rikiar/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RomantiqueInitials/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RomeoJuliet/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RoyalInitialen/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RuasThin/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Rudelsberg/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/SotDL/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Starla/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/TheMariamStory/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/TheMoney/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Thunder/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Valeria/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Viliaris/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/VultronBlack/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Watson/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/WolnoughCapitals/stylesheet.css');
+/** Global properties **/
+
+:root {
+    --img-header-banner: url(../img/backgrounds/header-banner.png);
+    --img-main-bg: none;
+    --img-bg-border: none;
+    --img-bg-page-number: none;
+    --img-parchment: url(../img/backgrounds/parchment.png);
+    --img-parchment-long: url(../img/backgrounds/parchment-long.png);
+    --color-white: white;
+    --color-black: #020000;
+    --color-yellow: #FFE800;
+    --color-pink: #FF41B4;
+    --color-bg-main: var(--color-white);
+    --color-bg-black: var(--color-black);
+    --color-bg-yellow: var(--color-yellow);
+    --color-bg-pink: var(--color-pink);
+    --color-text-main: var(--color-black);
+    --color-text-yellow: var(--color-yellow);
+    --color-text-pink: var(--color-pink);
+    --color-headers-main: var(--color-text-main);
+    --color-headers-yellow: var(--color-text-yellow);
+    --color-headers-pink: var(--color-text-pink);
+    --color-strong: var(--color-text-main);
+    --color-strong-yellow: var(--color-text-yellow);
+    --color-strong-pink: var(--color-text-pink);
+    --color-monster-h1-bg: black;
+    --color-monster-h2-bg: #800000;
+    --color-monster-h3-bg: #A7A9AC;
+    --color-header-border: black;
+    --color-table-header-bg: black;
+    --color-table-main-bg: initial;
+    --color-table-alt-bg: white;
+    --color-link: #800000;
+    --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/mb-blend-half-vertical.png');
+    --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/mb-blend-half-horizontal.png');
+    --blend-corner: url('/SotDL-Homebrew/assets/img/blends/mb-blend-corner.png');
+    --blend-onethird: url('/SotDL-Homebrew/assets/img/blends/mb-blend-onethird.png');
+    --blend-twothirds: url('/SotDL-Homebrew/assets/img/blends/mb-blend-twothirds.png');
+    --blend-corner-inverted: url('/SotDL-Homebrew/assets/img/blends/mb-blend-corner-inverted.png');
+    --blend-corner-inverted-small: url('/SotDL-Homebrew/assets/img/blends/mb-blend-corner-inverted-small.png');
+    --blend-corner-quarter: url('/SotDL-Homebrew/assets/img/blends/mb-blend-corner-quarter.png');
+}
+
+/** Global properties END **/
+
+/**  **/
+
+.brewRenderer .pages>.gmb {
+    margin-bottom: 10px;
+}
+
+@media print {
+    .gmb {
+        margin: 0;
+        height: 210mm;
+        width: 148mm;
+        /* height: 279.4mm;
+        width: 215.9mm; */
+    }
+}
+
+/** Full-page image size: 559 x 794 **/
+
+.gmb {
+    font-family: 'Alegreya';
+    background: none;
+    background-color: var(--color-white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 210mm;
+    width: 148mm;
+    /* height: 279.4mm;
+        width: 215.9mm; */
+    padding: 0.7cm 0cm 0.7cm 0.8cm;
+    column-fill: auto;
+    column-count: 2;
+    column-gap: 0.1cm;
+    column-width: 6cm;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0.1cm;
+    -webkit-column-width: 6cm;
+    -moz-column-count: 2;
+    -moz-column-gap: 0.1cm;
+    -moz-column-width: 6cm;
+}
+
+.gmb a, .gmb .custom-external-link {
+    color: var(--color-link);
+}
+
+/*** Headers ***/
+
+.gmb img.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.gmb div.title .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 816px;
+    background-image: var(--img-header-banner);
+    background-size: 100% 106%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.gmb div.title .banner h1 {
+    font-family: "Chomsky";
+    font-size: 50pt;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: #f3ebebd1;
+    position: relative;
+    bottom: 5px;
+}
+
+.gmb div.title-text h1 {
+    position: absolute;
+    left: 120px;
+    top: 200px;
+    font-family: "Chomsky";
+    font-size: 30pt;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: #f3ebebd1;
+    position: relative;
+}
+
+.gmb div.subtitle h2 {
+    font-family: 'Alegreya';
+    color: var(--color-text-main);
+    font-size: 23pt;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-transform: none;
+}
+
+.gmb h1+p::first-letter {
+    float: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+.gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
+    font-family: 'Deadhead Classic';
+    font-weight: normal;
+    text-align: left;
+    color: var(--color-headers-main);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.gmb h1 {
+    font-family: 'Chomsky';
+    font-size: 26pt;
+}
+
+.gmb h2 {
+    font-size: 24pt;
+}
+
+.gmb h3 {
+    border-bottom-style: none;
+    font-size: 20pt;
+    padding: 0;
+}
+
+.gmb h4 {
+    font-size: 16pt;
+}
+
+.gmb div.traits h4 {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-header-border);
+    border-bottom-width: 1.1px;
+}
+
+.gmb div.tables h4 {
+    text-align: center;
+}
+
+.gmb h5 {
+    font-size: 14pt;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-header-border);
+    border-bottom-width: 1.1px;
+}
+
+.gmb div.tables h5 {
+    font-size: 14pt;
+    text-align: center;
+    border-bottom-style: none;
+}
+
+.gmb h5.sidebar {
+    font-size: 14pt;
+    text-align: center;
+}
+
+.gmb h6 {
+    font-size: 12pt;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-headers-main);
+    border-bottom-width: 1.1px;
+}
+
+/*** Headers END ***/
+
+/*** Cover ***/
+
+.gmb img.cover-logo {
+    position: absolute;
+    width: 140px;
+    bottom: 50px;
+    right: 20px;
+    z-index: 5;
+    transform: rotate(10deg);
+}
+
+.gmb img.mb-logo {
+    position: absolute;
+    width: 140px;
+    bottom: 35px;
+    left: 20px;
+    z-index: 5;
+    transform: rotate(-10deg);
+}
+
+.gmb p.cover-footer, .gmb p.cover-footer em {
+    font-family: 'Alegreya';
+    bottom: 15px;
+    left: 180px;
+    text-align: justify;
+    font-size: 8pt;
+    width: 200px;
+    color: #EEEEEE;
+}
+
+/*** Cover END ***/
+
+/*** Layout ***/
+
+.gmb div.dual-tables {
+    column-count: 2;
+}
+
+/*** Layout END ***/
+
+/*** Paragraph ***/
+
+.gmb p+p {
+    text-indent: unset;
+    margin-top: 0.5em;
+}
+
+p {
+    margin: 0 0 5px;
+    line-height: 1.2em;
+}
+
+/*** Paragraph END***/
+
+/*** Containers ***/
+
+.gmb div.text-container {
+    position: absolute;
+}
+
+.gmb div.column-container {
+    column-count: 2;
+    column-span: all;
+}
+
+/*** Containers END***/
+
+/*** Bold ***/
+
+.gmb p strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 8pt;
+    color: var(--color-strong-yellow);
+    letter-spacing: -0.02em;
+}
+
+.gmb strong em, .gmb em strong {
+    color: var(--color-strong-yellow);
+    font-style: normal;
+    font-weight: bold;
+}
+
+.gmb h5+p strong {
+    color: var(--color-strong);
+}
+
+/*** Bold END ***/
+
+/* Tables */
+
+.gmb div.half-table table {
+    width: 50%;
+}
+
+.gmb h4.table+table thead th, h4.table+section div table thead th, li p+table thead th, p+table thead th, .gmb h5.table+table thead th, h5.table+section div table thead th {
+    background-color: var(--color-table-header-bg);
+    color: var(--color-white);
+    ;
+    font-family: "GothamBold";
+    font-size: 8pt;
+    padding: 3px 6px 3px 6px !important;
+    min-width: 34px;
+}
+
+.gmb div.column-break+table thead th {
+    padding: 0px;
+}
+
+.gmb.ng-scope table thead th {
+    padding: 0px;
+}
+
+.gmb table tbody tr {
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+.gmb table tbody tr:nth-child(odd) {
+    background-color: var(--color-table-main-bg);
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+.gmb table tbody tr:nth-child(even) {
+    background-color: var(--color-table-alt-bg);
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+.gmb table tbody tr td {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    min-width: 34px;
+}
+
+.gmb table tbody tr td p {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    text-indent: 1em;
+}
+
+.gmb table tbody tr td ul {
+    /* text-indent: -1em; */
+    text-indent: 0;
+    list-style-type: none;
+}
+
+.gmb table tbody tr td li {
+    margin-left: 5px;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    color: var(--color-text-main);
+}
+
+.gmb table tbody tr td strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 8pt;
+    color: var(--color-strong);
+}
+
+.gmb table strong {
+    font-family: 'GothamBold';
+    font-size: 8pt;
+}
+
+.gmb table+ul {
+    line-height: 1em;
+    margin-top: -0.5em;
+}
+
+.gmb table+ul li {
+    font-size: 9pt;
+}
+
+.gmb table em {
+    font-family: 'GothamBook';
+    font-weight: normal;
+}
+
+/*** Tables END ***/
+
+/*** Blockquote ***/
+
+.gmb blockquote {
+    border: 1px solid orange;
+    border-image-source: var(--img-parchment);
+    border-image-slice: 20 fill;
+    border-image-width: 20;
+    border-image-outset: 5;
+    border-image-repeat: round;
+    background-color: transparent;
+    background-size: 100% 100%;
+    padding: 10px 10px 20px 12px;
+    overflow: hidden;
+    box-shadow: unset;
+}
+
+.gmb blockquote h5, .gmb blockquote h3 {
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gmb blockquote h4 {
+    text-align: center;
+}
+
+.gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
+    font-family: 'Deadhead Classic';
+}
+
+.gmb blockquote p {
+    font-size: 0.83em;
+}
+
+.gmb blockquote section ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+/*** Blockquote END ***/
+
+/*** Note block ***/
+
+.gmb blockquote.note {
+    border: 1px solid orange;
+    border-image-source: var(--img-parchment);
+    border-image-slice: 20 fill;
+    border-image-width: 20;
+    border-image-outset: 5;
+    border-image-repeat: round;
+    padding: 20px 15px 20px 15px;
+    overflow: hidden;
+    height: auto;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.gmb blockquote.note table {
+    margin-bottom: 0.25em;
+}
+
+.gmb blockquote.note table tbody tr td {
+    line-height: 1.25em;
+}
+
+/*** Note block END ***/
+
+/*** Patreon Credits block END ***/
+
+.gmb div.patreon blockquote {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    width: 340px;
+    text-align: center;
+}
+
+.gmb div.patreon blockquote p:last-child {
+    margin-bottom: 10px;
+}
+
+.gmb div.patreon blockquote p {
+    font-size: 1em;
+}
+
+.gmb div.patreon blockquote img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.gmb div.patreon blockquote h5 {
+    margin: 10px 0px 10px 0px;
+}
+
+.gmb div.patreon blockquote div.column-container h6 {
+    margin: 0px 0px 0px 5px;
+}
+
+/*** Patreon Credits block END ***/
+
+/* Credits blockquote */
+
+.gmb blockquote.credits {
+    text-shadow: none;
+}
+
+.gmb blockquote.credits h1.credits {
+    font-family: 'Deadhead Classic';
+    font-weight: normal;
+    font-size: 18pt;
+    text-align: center;
+    border: none;
+}
+
+.gmb blockquote.credits p {
+    font-family: 'Deadhead Classic';
+    font-weight: normal;
+    font-size: 9pt;
+    color: var(--color-text-main);
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+    text-shadow: none;
+}
+
+.gmb blockquote.credits p strong em {
+    font-family: 'Alegreya';
+    color: var(--color-strong);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gmb blockquote.credits p span.before-colon {
+    color: var(--color-headers-main);
+}
+
+.gmb blockquote.credits div.acknowledgements p {
+    font-family: 'Alegreya';
+    font-weight: normal;
+    font-size: 8pt;
+    letter-spacing: -0.02em;
+}
+
+.gmb blockquote.credits div.acknowledgements p strong {
+    font-family: 'Alegreya';
+    font-weight: bold;
+    font-size: 8pt;
+    color: var(--color-strong);
+    letter-spacing: -0.03em;
+}
+
+.gmb blockquote.credits img.credits-image {
+    width: 45%;
+    display: block;
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*** Credits block END ***/
+
+/* Credits div */
+
+.gmb div.credits {
+    border-image: none;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    text-shadow: none;
+}
+
+.gmb div.credits h1, .gmb div.credits h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gmb div.credits h1.credits {
+    font-family: 'Deadhead Classic';
+    font-weight: normal;
+    font-size: 26pt;
+    text-align: center;
+    border: none;
+}
+
+.gmb div.credits p {
+    font-family: 'Deadhead Classic';
+    font-weight: normal;
+    font-size: 9pt;
+    color: var(--color-text-main);
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+    text-shadow: none;
+}
+
+.gmb div.credits p strong em {
+    color: var(--color-strong);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gmb div.credits p span.before-colon {
+    color: var(--color-headers-main);
+}
+
+.gmb div.credits div.acknowledgements p {
+    font-family: 'Alegreya';
+    font-weight: normal;
+    font-size: 9pt;
+    letter-spacing: -0.02em;
+}
+
+.gmb div.credits div.acknowledgements strong {
+    font-family: 'Alegreya';
+    font-weight: bold;
+    font-size: 8pt;
+    color: var(--color-strong);
+    letter-spacing: -0.03em;
+}
+
+.gmb div.credits img.credits-image {
+    width: auto;
+    display: block;
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*** Credits div END ***/
+
+.gmb .descriptive {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.gmb .descriptive h5 {
+    font-style: normal;
+    color: var(--color-text-main);
+    text-align: center;
+}
+
+/** Page number **/
+
+.gmb .pageNumber, .gmb .pageNumber.auto {
+    font-family: 'Aclonica';
+    font-size: 9pt;
+    color: var(--color-white);
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    text-align: center;
+}
+
+.gmb:nth-child(odd) .pageNumber, .gmb:nth-child(even) .pageNumber {
+    right: 0px;
+    bottom: 5px;
+    z-index: 100;
+}
+
+.gmb:nth-child(odd) .pageNumber {
+    left: 0px;
+}
+
+.gmb:nth-child(even) .pageNumber {
+    left: 515px;
+}
+
+.gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
+    content: "";
+    background: none;
+    background-image: var(--img-bg-page-number), var(--img-bg-border);
+    background-size: 100px 100px, 780px 1046px;
+    background-repeat: no-repeat;
+    background-position: 20px calc(100% - 5px), bottom;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    left: -10px;
+    bottom: 0;
+    height: 100%;
+    z-index: -2;
+    padding: 0px;
+}
+
+.gmb:nth-child(even)::after {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+div#p1::after {
+    background-image: none;
+}
+
+.gmb .footnote {
+    color: var(--color-strong);
+    font-family: 'Alegreya';
+    font-weight: bold;
+    font-size: .8em;
+    width: 200px;
+    bottom: 20px;
+}
+
+/*** Page number END ***/
+
+.html-code code {
+    visibility: visible;
+    box-shadow: 1px 1px 1px black;
+    background-color: #aaa;
+    font-family: 'Lucida Console'
+}
+
+.gmb hr {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    position: relative;
+}
+
+/*** Lists ***/
+
+.gmb ul {
+    /* text-indent: -1em; */
+    text-indent: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.gmb ul strong, .gmb ul p strong, .gmb ol strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 10pt;
+    letter-spacing: -0.02em;
+    color: var(--color-strong);
+}
+
+.gmb hr+ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.gmb ul li ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.gmb p ul li strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 8pt;
+    color: var(--color-strong-yellow);
+    letter-spacing: -0.02em;
+}
+
+.gmb p ul li ul li strong, .gmb p+ul li strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 8pt;
+    color: var(--color-strong);
+    letter-spacing: -0.02em;
+}
+
+.gmb ul li p {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: inherit;
+}
+
+.gmb ul li div.column-break+p {
+    text-indent: 1em;
+}
+
+.gmb p+ul {
+    margin-top: -0.8em;
+}
+
+.gmb p.list-indent {
+    margin-left: 1em;
+    line-height: 1em;
+    text-indent: 1em;
+}
+
+.gmb p, .gmb li, .gmb ol {
+    font-family: 'Alegreya';
+    font-size: 9pt;
+    text-align: left;
+    letter-spacing: -0.01em;
+}
+
+/*** Lists END ***/
+
+/** Monster Stat Block **/
+
+.gmb hr+section blockquote {
+    padding: 0px;
+    box-shadow: none;
+    border-style: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.gmb hr+section blockquote h1 {
+    font-family: 'Alegreya';
+    background-color: var(--color-monster-h1-bg);
+    background-image: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 5px;
+    float: left;
+    margin: 0px;
+    width: 70%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.gmb hr+section blockquote h2 {
+    font-family: 'Alegreya';
+    font-weight: normal;
+    font-size: 8pt;
+    font-style: initial;
+    color: white;
+    background-color: var(--color-monster-h1-bg);
+    padding: 5px;
+    float: right;
+    width: 30%;
+    height: 27px;
+    margin: 0px;
+    text-align: right;
+}
+
+.gmb hr+section blockquote h3 {
+    font-family: 'Alegreya';
+    font-weight: bold;
+    font-size: 9pt;
+    color: var(--color-strong);
+    background-color: var(--color-monster-h3-bg);
+    padding: 3px;
+    padding-left: 5px;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+.gmb hr+section blockquote h2+p {
+    clear: both;
+    font-family: 'Alegreya';
+    font-weight: bold;
+    font-size: 9pt;
+    color: white;
+    background-color: var(--color-monster-h2-bg);
+    padding: 3px;
+    padding-left: 5px;
+}
+
+.gmb hr+section blockquote h2+p+hr, .gmb hr+section blockquote h3+hr {
+    display: none;
+}
+
+.gmb hr+section blockquote section section ul li {
+    text-indent: inherit;
+    margin-bottom: 0px;
+}
+
+.gmb hr+section blockquote hr+ul li {
+    margin-left: 5px;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    color: var(--color-text-main);
+}
+
+.gmb hr+section blockquote ul li strong {
+    font-family: 'GothamBold';
+    font-weight: bold;
+    font-size: 8pt;
+    color: var(--color-strong);
+}
+
+.gmb hr+section blockquote ul+hr {
+    border-color: #800000;
+}
+
+.gmb hr+section blockquote h1+hr {
+    visibility: hidden;
+    margin: 0;
+    height: 0;
+}
+
+.gmb hr+section blockquote h1+hr+section h2:before {
+    content: "";
+}
+
+.gmb hr+section blockquote h2:before {
+    content: "DIFFICULTY ";
+}
+
+/*** Monster Stats END ***/
+
+/** Spells **/
+
+.gmb div.spell h1 {
+    font-family: 'Alegreya';
+    font-size: 10pt;
+    color: var(--color-headers-main);
+    font-weight: bold;
+    background-image: none;
+    padding: 5px 0px 5px 0px;
+    float: left;
+    margin: 0px;
+    display: block;
+    text-align: left;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.gmb div.spell h2 {
+    font-family: 'Alegreya';
+    font-size: 7pt;
+    color: var(--color-headers-main);
+    font-weight: bold;
+    font-style: initial;
+    padding: 8px 0px 5px 0px;
+    float: right;
+    margin: 0px;
+    text-align: right;
+    display: block;
+    text-transform: uppercase;
+}
+
+.gmb div.spell hr {
+    background-image: none;
+    visibility: visible;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.1px 0px 0px 0px;
+    position: relative;
+}
+
+.gmb div.spell h2+hr {
+    border-width: 2px 0px 0px 0px;
+    width: 100%;
+}
+
+.gmb div.spell p {
+    font-size: 9pt;
+}
+
+.gmb div.spell p strong {
+    font-size: 8pt;
+}
+
+.gmb div.spell ul {
+    margin-top: .25em;
+    margin-bottom: .25em;
+    padding-left: 1em;
+    text-indent: initial;
+    list-style-type: none;
+}
+
+.gmb div.spell ul li {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    list-style-type: none;
+}
+
+.gmb div.spell ul li strong {
+    font-family: 'GothamBold';
+    font-size: 8pt;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+}
+
+/*** Spells END ***/
+
+/*** Ad Page ***/
+
+.gmb div.ad-page {
+    column-span: all;
+    -webkit-column-span: all;
+    -moz-column-span: all;
+}
+
+.gmb div.ad-page h3 {
+    color: var(--color-main);
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+.gmb div.ad-page div.grid {
+    display: grid;
+    grid-template-columns: 150px 500px;
+    grid-gap: 2rem;
+}
+
+.gmb div.ad-page div.grid img {
+    width: 150px;
+    box-shadow: 7px 7px 5px 1px #1A1B1B;
+}
+
+/*** Ad Page END***/

@@ -1,0 +1,10 @@
+/*** CoC Containers ***/
+
+.column-container {
+  column-count: 2;
+  column-span: all;
+}
+
+.text-container {
+  position: absolute;
+}

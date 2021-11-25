@@ -33,6 +33,6 @@
   color: var(--color-text-main);
 }
 
-.gmb h1 + p .gmb p + p {
+.gmb h1 + p, .gmb p + p {
   text-indent: var(--indent-main);
 }

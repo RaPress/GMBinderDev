@@ -1,3 +1,85 @@
 /*** CoC Fonts ***/
 
 @import url("/css/fonts/GoingMad/stylesheet.css");
+
+.double p,
+.double h4,
+span.double {
+  font-family: "Going Mad Double";
+}
+
+.munge p,
+.munge h4,
+span.munge {
+  font-family: "Going Mad Munge";
+}
+
+.shaky p,
+.shaky h4,
+span.shaky {
+  font-family: "Going Mad Shake";
+}
+
+.warp p,
+.warp h4,
+span.warp {
+  font-family: "Going Mad Warp";
+}
+
+.heavy p,
+.heavy h4 {
+  font-family: "Going Mad Heavy";
+}
+
+.double .heavy p,
+.double .heavy h4,
+span.double.heavy {
+  font-family: "Going Mad Heavy Double";
+}
+
+.munge .heavy p,
+.munge .heavy h4,
+span.munge.heavy {
+  font-family: "Going Mad Heavy Munge";
+}
+
+.shaky .heavy p,
+.shaky .heavy h4,
+span.shaky.heavy {
+  font-family: "Going Mad Heavy Shake";
+}
+
+.warp .heavy p,
+.warp .heavy h4,
+span.warp.heavy {
+  font-family: "Going Mad Heavy Warp";
+}
+
+.light p,
+.light h4 {
+  font-family: "Going Mad Light";
+}
+
+.double .light p,
+.double .light h4,
+span.double.light {
+  font-family: "Going Mad Light Double";
+}
+
+.munge .light p,
+.munge .light h4,
+span.munge.light {
+  font-family: "Going Mad Light Munge";
+}
+
+.shaky .light p,
+.shaky .light h4,
+span.shaky.light {
+  font-family: "Going Mad Light Shake";
+}
+
+.warp .light p,
+.warp .light h4,
+span.warp.light {
+  font-family: "Going Mad Light Warp";
+}

@@ -1,0 +1,35 @@
+/** CoC Handouts **/
+
+.handout {
+  column-span: all;
+}
+
+.handout h4 {
+  padding-top: 3rem;
+}
+
+.handout p + p {
+  padding-top: 3rem;
+  text-indent: 0;
+}
+
+.handout p,
+.handout h4 {
+  font-family: "Going Mad";
+  font-size: 30pt;
+}
+
+.handout span {
+  display: inline-block;
+}
+
+.handout span.overlay {
+  position: absolute;
+}
+
+.handout s {
+  text-decoration: line-through double;
+}
+.handout s s {
+  text-decoration: line-through wavy;
+}

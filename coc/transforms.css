@@ -1,0 +1,81 @@
+/*** CoC Transforms ***/
+
+.scale-1 {
+  transform: scale(1.02);
+}
+
+.scale-2 {
+  transform: scale(1.04);
+}
+
+.scale-3 {
+  transform: scale(1.06);
+}
+
+.scale-4 {
+  transform: scale(1.08);
+}
+
+.scale-5 {
+  transform: scale(1.1);
+}
+
+.scale-6 {
+  transform: scale(1.12);
+}
+
+.scale-7 {
+  transform: scale(1.14);
+}
+
+.scale-8 {
+  transform: scale(1.16);
+}
+
+.scale-9 {
+  transform: scale(1.18);
+}
+
+.scale-10 {
+  transform: scale(1.2);
+}
+
+.rotate-1 {
+  transform: rotate(2deg);
+}
+
+.rotate-2 {
+  transform: rotate(4deg);
+}
+
+.rotate-3 {
+  transform: rotate(6deg);
+}
+
+.rotate-4 {
+  transform: rotate(8deg);
+}
+
+.rotate-5 {
+  transform: rotate(10deg);
+}
+
+.rotate-1-invert {
+  transform: rotate(-2deg);
+}
+
+.rotate-2-invert {
+  transform: rotate(-4deg);
+}
+
+.rotate-3-invert {
+  transform: rotate(-6deg);
+}
+
+.rotate-4-invert {
+  transform: rotate(-8deg);
+}
+
+.rotate-5-invert {
+  transform: rotate(-10deg);
+}

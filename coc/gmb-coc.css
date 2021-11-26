@@ -1,13 +1,13 @@
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/utils/reset.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/fonts.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/globals.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/headers.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/blockquotes.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/tables.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/lists.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/cover.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/containers.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/stat-blocks.css");
+@import url("https://gmb.ra-press.com/css/utils/reset.css");
+@import url("https://gmb.ra-press.com/css/coc/fonts.css");
+@import url("https://gmb.ra-press.com/css/coc/globals.css");
+@import url("https://gmb.ra-press.com/css/coc/headers.css");
+@import url("https://gmb.ra-press.com/css/coc/blockquotes.css");
+@import url("https://gmb.ra-press.com/css/coc/tables.css");
+@import url("https://gmb.ra-press.com/css/coc/lists.css");
+@import url("https://gmb.ra-press.com/css/coc/cover.css");
+@import url("https://gmb.ra-press.com/css/coc/containers.css");
+@import url("https://gmb.ra-press.com/css/coc/stat-blocks.css");
 
 @media print {
   .gmb {
@@ -34,6 +34,7 @@
   color: var(--color-text-main);
 }
 
-.gmb h1+p, .gmb p+p {
+.gmb h1 + p,
+.gmb p + p {
   text-indent: var(--indent-main);
 }

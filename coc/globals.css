@@ -10,14 +10,21 @@
   --color-senary: #ffffff;
   --color-septenary: #f3f3f3;
 
+  /* Font sizes */
+  --font-size-1: 9pt;
+  --font-size-2: 11pt;
+  --font-size-3: 14pt;
+  --font-size-4: 24pt;
+  --font-size-5: 30pt;
+
   /* Headers */
   --color-headers-main: var(--color-secondary);
   --font-headers: "Trebuchet MS";
   --font-header-secondary: Georgia;
-  --font-size-h1: 24pt;
-  --font-size-h2: 14pt;
-  --font-size-h3: 11pt;
-  --font-size-h4: 9pt;
+  --font-size-h1: var(--font-size-4);
+  --font-size-h2: var(--font-size-3);
+  --font-size-h3: var(--font-size-2);
+  --font-size-h4: var(--font-size-1);
 
   /* Background */
   --color-bg-column: var(--color-septenary);
@@ -27,7 +34,7 @@
   /* Main Text */
   --color-text-main: var(--color-primary);
   --font-main: Georgia;
-  --font-size-main: 9pt;
+  --font-size-main: var(--font-size-1);
   --indent-main: 1em;
 
   /* Tables */

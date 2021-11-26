@@ -83,3 +83,23 @@ span.shaky.light {
 span.warp.light {
   font-family: "Going Mad Light Warp";
 }
+
+.font-size-1 {
+  font-size: var(--font-size-1);
+}
+
+.font-size-2 {
+  font-size: var(--font-size-2);
+}
+
+.font-size-3 {
+  font-size: var(--font-size-3);
+}
+
+.font-size-4 {
+  font-size: var(--font-size-4);
+}
+
+.font-size-5 {
+  font-size: var(--font-size-5);
+}

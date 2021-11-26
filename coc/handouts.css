@@ -1,9 +1,5 @@
 /** CoC Handouts **/
 
-.gmb .handout {
-  column-span: all;
-}
-
 .gmb .handout h4 {
   padding-top: 3rem;
 }
@@ -17,7 +13,7 @@
 .gmb .handout h4,
 .gmb .handout span {
   font-family: "Going Mad";
-  font-size: 30pt;
+  font-size: var(--font-size-5);
 }
 
 .gmb .handout span {

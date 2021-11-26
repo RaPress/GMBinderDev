@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Going Mad';
+    src: url('phontphreaks_handwriting_slant.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slant.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Double';
+    src: url('phontphreaks_handwriting_slantdouble.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantdouble.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Munge';
+    src: url('phontphreaks_handwriting_slantmunge.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantmunge.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Shake';
+    src: url('phontphreaks_handwriting_slantshake.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantshake.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Warp';
+    src: url('phontphreaks_handwriting_slantwarp.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantwarp.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Upright';
+    src: url('phontphreaks_handwriting_upright.woff2') format('woff2'),
+        url('phontphreaks_handwriting_upright.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Heavy';
+    src: url('phontphreaks_handwriting_slantheavy.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantheavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Heavy Double';
+    src: url('phontphreaks_handwriting_slantheavydouble.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantheavydouble.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Heavy Munge';
+    src: url('phontphreaks_handwriting_slantheavymunge.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantheavymunge.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Heavy Shake';
+    src: url('phontphreaks_handwriting_slantheavyshake.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantheavyshake.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Heavy Warp';
+    src: url('phontphreaks_handwriting_slantheavywarp.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantheavywarp.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Light';
+    src: url('phontphreaks_handwriting_slantlight.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantlight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Light Double';
+    src: url('phontphreaks_handwriting_slantlightdouble.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantlightdouble.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Light Munge';
+    src: url('phontphreaks_handwriting_slantlightmunge.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantlightmunge.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Light Shake';
+    src: url('phontphreaks_handwriting_slantlightshake.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantlightshake.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Going Mad Light Warp';
+    src: url('phontphreaks_handwriting_slantlightwarp.woff2') format('woff2'),
+        url('phontphreaks_handwriting_slantlightwarp.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

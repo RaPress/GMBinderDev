@@ -2,7 +2,9 @@
 
 @import url("/css/fonts/GoingMad/stylesheet.css");
 
-.handwriting {
+.handwriting p,
+.handwriting h4,
+.handwriting span {
   font-family: "Going Mad";
 }
 

@@ -14,7 +14,8 @@
 }
 
 .gmb .handout p,
-.gmb .handout h4 {
+.gmb .handout h4,
+.gmb .handout span {
   font-family: "Going Mad";
   font-size: 30pt;
 }

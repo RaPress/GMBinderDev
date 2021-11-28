@@ -40,6 +40,14 @@
   transform: scale(1.2);
 }
 
+.scale-11 {
+  transform: scale(1.4);
+}
+
+.scale-12 {
+  transform: scale(1.6);
+}
+
 .rotate-1 {
   transform: rotate(2deg);
 }

@@ -25,7 +25,8 @@
 }
 
 .gmb h3,
-.gmb h4 {
+.gmb h4,
+.gmb h6 {
   font-family: var(--font-header-secondary);
 }
 
@@ -35,5 +36,15 @@
 
 .gmb h4 {
   font-size: var(--font-size-h4);
+  font-style: italic;
+}
+
+.gmb h5 {
+  font-size: var(--font-size-h5);
+  border-bottom: 1px solid var(--color-headers-main);
+}
+
+.gmb h6 {
+  font-size: var(--font-size-h5);
   font-style: italic;
 }

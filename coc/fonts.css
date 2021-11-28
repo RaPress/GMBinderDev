@@ -2,91 +2,91 @@
 
 @import url("/css/fonts/GoingMad/stylesheet.css");
 
-.handwriting p,
-.handwriting h4,
-.handwriting span {
+.gmb .handwriting p,
+.gmb .handwriting h4,
+.gmb .handwriting span {
   font-family: "Going Mad";
 }
 
-.handwriting .double p,
-.handwriting .double h4,
-.handwriting span.double {
+.gmb .handwriting .double p,
+.gmb .handwriting .double h4,
+.gmb .handwriting span.double {
   font-family: "Going Mad Double";
 }
 
-.handwriting .munge p,
-.handwriting .munge h4,
-.handwriting span.munge {
+.gmb .handwriting .munge p,
+.gmb .handwriting .munge h4,
+.gmb .handwriting span.munge {
   font-family: "Going Mad Munge";
 }
 
-.handwriting .shaky p,
-.handwriting .shaky h4,
-.handwriting span.shaky {
+.gmb .handwriting .shaky p,
+.gmb .handwriting .shaky h4,
+.gmb .handwriting span.shaky {
   font-family: "Going Mad Shake";
 }
 
-.handwriting .warp p,
-.handwriting .warp h4,
-.handwriting span.warp {
+.gmb .handwriting .warp p,
+.gmb .handwriting .warp h4,
+.gmb .handwriting span.warp {
   font-family: "Going Mad Warp";
 }
 
-.handwriting .heavy p,
-.handwriting .heavy h4 {
+.gmb .handwriting .heavy p,
+.gmb .handwriting .heavy h4 {
   font-family: "Going Mad Heavy";
 }
 
-.handwriting .double .heavy p,
-.handwriting .double .heavy h4,
-.handwriting span.double.heavy {
+.gmb .handwriting .double .heavy p,
+.gmb .handwriting .double .heavy h4,
+.gmb .handwriting span.double.heavy {
   font-family: "Going Mad Heavy Double";
 }
 
-.handwriting .munge .heavy p,
-.handwriting .munge .heavy h4,
-.handwriting span.munge.heavy {
+.gmb .handwriting .munge .heavy p,
+.gmb .handwriting .munge .heavy h4,
+.gmb .handwriting span.munge.heavy {
   font-family: "Going Mad Heavy Munge";
 }
 
-.handwriting .shaky .heavy p,
-.handwriting .shaky .heavy h4,
-.handwriting span.shaky.heavy {
+.gmb .handwriting .shaky .heavy p,
+.gmb .handwriting .shaky .heavy h4,
+.gmb .handwriting span.shaky.heavy {
   font-family: "Going Mad Heavy Shake";
 }
 
-.handwriting .warp .heavy p,
-.handwriting .warp .heavy h4,
-.handwriting span.warp.heavy {
+.gmb .handwriting .warp .heavy p,
+.gmb .handwriting .warp .heavy h4,
+.gmb .handwriting span.warp.heavy {
   font-family: "Going Mad Heavy Warp";
 }
 
-.handwriting .light p,
-.handwriting .light h4 {
+.gmb .handwriting .light p,
+.gmb .handwriting .light h4 {
   font-family: "Going Mad Light";
 }
 
-.handwriting .double .light p,
-.handwriting .double .light h4,
-.handwriting span.double.light {
+.gmb .handwriting .double .light p,
+.gmb .handwriting .double .light h4,
+.gmb .handwriting span.double.light {
   font-family: "Going Mad Light Double";
 }
 
-.handwriting .munge .light p,
-.handwriting .munge .light h4,
-.handwriting span.munge.light {
+.gmb .handwriting .munge .light p,
+.gmb .handwriting .munge .light h4,
+.gmb .handwriting span.munge.light {
   font-family: "Going Mad Light Munge";
 }
 
-.handwriting .shaky .light p,
-.handwriting .shaky .light h4,
-.handwriting span.shaky.light {
+.gmb .handwriting .shaky .light p,
+.gmb .handwriting .shaky .light h4,
+.gmb .handwriting span.shaky.light {
   font-family: "Going Mad Light Shake";
 }
 
-.handwriting .warp .light p,
-.handwriting .warp .light h4,
-.handwriting span.warp.light {
+.gmb .handwriting .warp .light p,
+.gmb .handwriting .warp .light h4,
+.gmb .handwriting span.warp.light {
   font-family: "Going Mad Light Warp";
 }
 

@@ -1,11 +1,11 @@
 /** CoC Handouts **/
 
 .gmb .handout h4 {
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .gmb .handout p + p {
-  padding-top: 3rem;
+  padding-top: 2rem;
   text-indent: 0;
 }
 
@@ -28,4 +28,92 @@
 }
 .gmb .handout s s {
   text-decoration: line-through wavy;
+}
+
+.gmb .handout.handwriting p,
+.gmb .handout.handwriting h4,
+.gmb .handout.handwriting span {
+  font-family: "Going Mad";
+}
+
+.gmb .handout.handwriting .double p,
+.gmb .handout.handwriting .double h4,
+.gmb .handout.handwriting span.double {
+  font-family: "Going Mad Double";
+}
+
+.gmb .handout.handwriting .munge p,
+.gmb .handout.handwriting .munge h4,
+.gmb .handout.handwriting span.munge {
+  font-family: "Going Mad Munge";
+}
+
+.gmb .handout.handwriting .shaky p,
+.gmb .handout.handwriting .shaky h4,
+.gmb .handout.handwriting span.shaky {
+  font-family: "Going Mad Shake";
+}
+
+.gmb .handout.handwriting .warp p,
+.gmb .handout.handwriting .warp h4,
+.gmb .handout.handwriting span.warp {
+  font-family: "Going Mad Warp";
+}
+
+.gmb .handout.handwriting .heavy p,
+.gmb .handout.handwriting .heavy h4 {
+  font-family: "Going Mad Heavy";
+}
+
+.gmb .handout.handwriting .double .heavy p,
+.gmb .handout.handwriting .double .heavy h4,
+.gmb .handout.handwriting span.double.heavy {
+  font-family: "Going Mad Heavy Double";
+}
+
+.gmb .handout.handwriting .munge .heavy p,
+.gmb .handout.handwriting .munge .heavy h4,
+.gmb .handout.handwriting span.munge.heavy {
+  font-family: "Going Mad Heavy Munge";
+}
+
+.gmb .handout.handwriting .shaky .heavy p,
+.gmb .handout.handwriting .shaky .heavy h4,
+.gmb .handout.handwriting span.shaky.heavy {
+  font-family: "Going Mad Heavy Shake";
+}
+
+.gmb .handout.handwriting .warp .heavy p,
+.gmb .handout.handwriting .warp .heavy h4,
+.gmb .handout.handwriting span.warp.heavy {
+  font-family: "Going Mad Heavy Warp";
+}
+
+.gmb .handout.handwriting .light p,
+.gmb .handout.handwriting .light h4 {
+  font-family: "Going Mad Light";
+}
+
+.gmb .handout.handwriting .double .light p,
+.gmb .handout.handwriting .double .light h4,
+.gmb .handout.handwriting span.double.light {
+  font-family: "Going Mad Light Double";
+}
+
+.gmb .handout.handwriting .munge .light p,
+.gmb .handout.handwriting .munge .light h4,
+.gmb .handout.handwriting span.munge.light {
+  font-family: "Going Mad Light Munge";
+}
+
+.gmb .handout.handwriting .shaky .light p,
+.gmb .handout.handwriting .shaky .light h4,
+.gmb .handout.handwriting span.shaky.light {
+  font-family: "Going Mad Light Shake";
+}
+
+.gmb .handout.handwriting .warp .light p,
+.gmb .handout.handwriting .warp .light h4,
+.gmb .handout.handwriting span.warp.light {
+  font-family: "Going Mad Light Warp";
 }

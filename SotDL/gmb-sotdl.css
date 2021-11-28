@@ -111,7 +111,7 @@
 /*** Bold ***/
 
 .gmb p strong {
-  font-family: var(--font-strong);
+  font-family: var(--font-secondary-strong);
   font-weight: normal;
   font-size: 10pt;
   color: var(--color-strong-alt);

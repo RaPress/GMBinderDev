@@ -1,5 +1,10 @@
 /*** Call of Cthulhu Tables ***/
 
+.gmb table {
+  font-family: var(--font-main);
+  margin-bottom: 0;
+}
+
 .gmb table thead th {
   background-color: var(--color-table-header);
   color: var(--color-table-header-text);

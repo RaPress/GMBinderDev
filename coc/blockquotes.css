@@ -8,3 +8,31 @@ blockquote p {
   font-style: italic;
   font-size: var(--font-size-main);
 }
+
+/** Quote **/
+
+.gmb div.quote blockquote {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  background-color: unset;
+  border: none;
+  border-image: none;
+  border-image-outset: 0 0;
+  box-shadow: none;
+}
+
+.gmb div.quote blockquote p {
+  font-family: var(--font-main);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.gmb div.quote blockquote p + p {
+  font-size: 1.5rem;
+  float: right;
+  font-style: normal;
+}
+
+/** Quote END **/

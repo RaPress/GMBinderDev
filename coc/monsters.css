@@ -1,0 +1,44 @@
+/*** CoC Monster blocks ***/
+
+/** Lists **/
+
+.gmb div.monster ul {
+  list-style-type: none;
+  text-indent: -1rem;
+}
+
+/** Lists END **/
+
+/** Tables **/
+
+.gmb div.monster table thead th {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.gmb div.monster table thead th,
+.gmb div.monster table tbody tr {
+  background: none;
+  color: var(--font-color-main);
+}
+
+/** Tables END **/
+
+/** Headers **/
+
+.gmb div.monster h4 {
+  text-transform: none;
+  font-style: normal;
+  letter-spacing: -0.05rem;
+  text-align: left;
+}
+
+.gmb div.monster h5 {
+  font-size: var(--font-size-2);
+  font-family: var(--font-main);
+  color: var(--font-color-main);
+  text-transform: uppercase;
+  border-bottom: none;
+}
+
+/** Headers END **/

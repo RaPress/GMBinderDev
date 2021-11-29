@@ -28,7 +28,8 @@
   column-width: 28rem;
 }
 
-.gmb p {
+.gmb p,
+.gmb strong {
   text-align: justify;
   text-align-last: left;
   font-family: var(--font-main);

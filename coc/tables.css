@@ -5,7 +5,13 @@
   margin-bottom: 0;
 }
 
+.gmb table strong {
+  font-family: var(--font-main);
+  color: inherit;
+}
+
 .gmb table thead th {
+  font-family: var(--font-main);
   background-color: var(--color-table-header);
   color: var(--color-table-header-text);
   font-weight: bold;

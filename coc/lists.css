@@ -20,3 +20,8 @@
   font-size: var(--font-size-main);
   color: var(--color-text-main);
 }
+
+.gmb ul + p,
+.gmb ol + p {
+  text-indent: 0;
+}

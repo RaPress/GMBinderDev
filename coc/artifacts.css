@@ -1,0 +1,11 @@
+/*** CoC Artifacts ***/
+
+.gmb div.artifact h3 {
+  font-size: var(--font-size-2);
+  color: var(--font-color-main);
+}
+
+.gmb div.artifact ul {
+  list-style-type: none;
+  text-indent: -1rem;
+}

@@ -12,8 +12,8 @@
   text-align-last: left;
   color: var(--color-headers-main);
   text-transform: uppercase;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .gmb h1 {

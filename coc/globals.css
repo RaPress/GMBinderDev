@@ -37,7 +37,7 @@
   --color-text-main: var(--color-primary);
   --font-main: Georgia;
   --font-size-main: var(--font-size-1);
-  --indent-main: 1em;
+  --indent-main: 1rem;
 
   /* Tables */
   --color-table-header: var(--color-quinary);

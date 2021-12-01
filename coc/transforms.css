@@ -48,6 +48,26 @@
   transform: scale(1.6);
 }
 
+.scale-Y-1 {
+  transform: scaleY(1.5);
+}
+
+.scale-Y-2 {
+  transform: scaleY(2);
+}
+
+.scale-Y-3 {
+  transform: scaleY(3);
+}
+
+.scale-Y-4 {
+  transform: scaleY(4);
+}
+
+.scale-Y-5 {
+  transform: scaleY(5);
+}
+
 .rotate-1 {
   transform: rotate(2deg);
 }

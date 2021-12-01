@@ -48,23 +48,23 @@
   transform: scale(1.6);
 }
 
-.scale-Y-1 {
+.scaleY-1 {
   transform: scaleY(1.5);
 }
 
-.scale-Y-2 {
+.scaleY-2 {
   transform: scaleY(2);
 }
 
-.scale-Y-3 {
+.scaleY-3 {
   transform: scaleY(3);
 }
 
-.scale-Y-4 {
+.scaleY-4 {
   transform: scaleY(4);
 }
 
-.scale-Y-5 {
+.scaleY-5 {
   transform: scaleY(5);
 }
 

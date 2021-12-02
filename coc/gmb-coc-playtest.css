@@ -43,3 +43,8 @@
 .gmb p + p {
   text-indent: var(--indent-main);
 }
+
+.gmb div.full-page-credits,
+.gmb div.patreon {
+  display: none;
+}

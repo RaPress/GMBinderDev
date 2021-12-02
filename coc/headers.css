@@ -53,3 +53,7 @@
   font-size: var(--font-size-h5);
   font-style: italic;
 }
+
+.gmb div.title h1 {
+  font-size: var(--font-size-7);
+}

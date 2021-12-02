@@ -18,6 +18,7 @@
   --font-size-4: 20pt;
   --font-size-5: 24pt;
   --font-size-6: 30pt;
+  --font-size-7: 40pt;
 
   /* Headers */
   --color-headers-main: var(--color-secondary);

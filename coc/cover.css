@@ -1,7 +1,16 @@
 /*** Call of Cthulhu Cover ***/
 
 .gmb div.title {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  column-span: all;
+}
+
+.gmb div.title h1 {
+  font-size: var(--font-size-7);
 }
 
 .coc-info {

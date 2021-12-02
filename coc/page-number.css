@@ -6,9 +6,8 @@
   font-size: 13pt;
   color: var(--color-secondary);
   text-shadow: none;
-  text-align: center;
-  right: 50%;
-  left: 50%;
+  right: 51.5%;
+  left: 48.5%;
   bottom: 1.2rem;
   width: unset;
 }
@@ -21,7 +20,7 @@
   background-image: var(--img-bg-page-number);
   background-size: 816px 1056px;
   background-repeat: no-repeat;
-  background-position: 13px 100%, bottom;
+  background-position: 18px 100%, bottom;
   bottom: 0;
   z-index: 0;
   padding: 0px;

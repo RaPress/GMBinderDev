@@ -1,0 +1,62 @@
+.gmb .handout .bg.stained-1 {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper.jpg")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-1-ripped {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-ripped.png")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-2 {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-2.png")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-2-ripped {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-2-ripped.png")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-3 {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-3.jpg")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-4 {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-4.png")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-4-ripped {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-4-ripped.png")
+    no-repeat center center;
+}
+
+span.blur-1 {
+  display: inline-block;
+  color: transparent;
+  text-shadow: 0 0 10px var(--color-headers-main);
+  filter: blur(1px);
+}
+
+span.blur-2 {
+  display: inline-block;
+  color: transparent;
+  text-shadow: 0 0 12px var(--color-headers-main);
+  filter: blur(2px);
+}
+
+span.blur-3 {
+  display: inline-block;
+  color: transparent;
+  text-shadow: 0 0 14px var(--color-headers-main);
+  filter: blur(2px);
+}
+
+span.no-blur {
+  color: var(--color-headers-main);
+  text-shadow: none;
+  filter: blur(0);
+  font-size: 40px;
+}

@@ -28,10 +28,11 @@
   --font-size-h4: var(--font-size-2);
   --font-size-h5: var(--font-size-1);
 
-  /* Background */
+  /* Backgrounds */
   --color-bg-column: var(--color-septenary);
   --color-bg-main: var(--color-senary);
   --color-bg-blockquote: var(--color-quaternary);
+  --img-bg-page-number: url("/img/backgrounds/tentacle-pagenum-bg.png");
 
   /* Main Text */
   --color-text-main: var(--color-primary);

@@ -8,12 +8,17 @@
 .gmb h6 {
   font-family: var(--font-header-main);
   font-weight: bold;
-  text-align: justify;
-  text-align-last: left;
+  text-align: left;
   color: var(--color-headers-main);
   text-transform: uppercase;
   margin-bottom: 1rem;
   margin-top: 1rem;
+}
+
+.gmb h1,
+.gmb h1 {
+  text-align: justify;
+  text-align-last: left;
 }
 
 .gmb h1 {

@@ -3,7 +3,8 @@
 :root {
   /* Colors */
   --color-primary: #000000;
-  --color-secondary: #7d373a;
+  --color-secondary: #495441;
+  --color-secondary-alt: #7d373a;
   --color-tertiary: #a7a9ac;
   --color-quaternary: #e4e3d8;
   --color-quinary: #5b4d3b;

@@ -22,8 +22,8 @@
 }
 
 .gmb {
-  background: none;
-  background-color: var(--color-bg-main) !important;
+  background: none !important;
+  background-color: var(--color-bg-main);
   height: 279.4mm;
   width: 215.9mm;
   column-gap: 2rem;
@@ -64,7 +64,7 @@
   border-image-width: unset;
   border-image-outset: unset;
   border-image-repeat: unset;
-  background-color: var(--color-quinary);
+  background-color: lightgray;
   background-size: 100% 100%;
   padding: 3rem 2rem 3rem 2rem;
   overflow: hidden;

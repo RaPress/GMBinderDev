@@ -6,9 +6,7 @@
   font-size: 13pt;
   color: var(--color-secondary);
   text-shadow: none;
-  right: 51.5%;
-  left: 48.5%;
-  bottom: 1.2rem;
+  bottom: 1.5rem;
   width: unset;
 }
 
@@ -17,10 +15,11 @@
 .gmb:nth-child(even)::after {
   content: "";
   background: none;
-  background-image: var(--img-bg-page-number);
-  background-size: 816px 1056px;
+  background-image: none;
+  /* background-image: var(--img-bg-page-number); */
+  /* background-size: 816px 1056px;
   background-repeat: no-repeat;
-  background-position: 18px 100%, bottom;
+  background-position: 18px 100%, bottom; */
   bottom: 0;
   z-index: 0;
   padding: 0px;

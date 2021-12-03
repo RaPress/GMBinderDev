@@ -36,26 +36,26 @@
 span.blur-1 {
   display: inline-block;
   color: transparent;
-  text-shadow: 0 0 10px var(--color-headers-main);
+  text-shadow: 0 0 10px var(--color-secondary-alt);
   filter: blur(1px);
 }
 
 span.blur-2 {
   display: inline-block;
   color: transparent;
-  text-shadow: 0 0 12px var(--color-headers-main);
+  text-shadow: 0 0 12px var(--color-secondary-alt);
   filter: blur(2px);
 }
 
 span.blur-3 {
   display: inline-block;
   color: transparent;
-  text-shadow: 0 0 14px var(--color-headers-main);
+  text-shadow: 0 0 14px var(--color-secondary-alt);
   filter: blur(2px);
 }
 
 span.no-blur {
-  color: var(--color-headers-main);
+  color: var(--color-secondary-alt);
   text-shadow: none;
   filter: blur(0);
   font-size: 40px;

@@ -22,8 +22,7 @@
 }
 
 .gmb {
-  background: none !important;
-  background-color: var(--color-bg-main);
+  background: var(--color-bg-main) !important;
   height: 279.4mm;
   width: 215.9mm;
   column-gap: 2rem;

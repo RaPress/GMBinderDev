@@ -23,7 +23,7 @@
 
 .gmb {
   background: none;
-  background-color: var(--color-bg-main);
+  background-color: var(--color-bg-main) !important;
   height: 279.4mm;
   width: 215.9mm;
   column-gap: 2rem;
@@ -44,7 +44,30 @@
   text-indent: var(--indent-main);
 }
 
-.gmb div.full-page-credits,
-.gmb div.patreon {
+.gmb#p1 div.title:after {
+  position: absolute;
+  content: "PLAYTEST COPY";
+  font-size: 50pt;
+  top: 50rem;
+}
+
+.gmb#p2 {
   display: none;
+}
+
+.gmb blockquote,
+.gmb hr + section blockquote {
+  background-image: none;
+  border: 1px solid black;
+  border-image-source: none;
+  border-image-slice: unset;
+  border-image-width: unset;
+  border-image-outset: unset;
+  border-image-repeat: unset;
+  background-color: var(--color-quinary);
+  background-size: 100% 100%;
+  padding: 3rem 2rem 3rem 2rem;
+  overflow: hidden;
+  box-shadow: unset;
+  margin-bottom: 0;
 }

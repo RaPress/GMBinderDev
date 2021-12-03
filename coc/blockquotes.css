@@ -16,6 +16,28 @@
   font-size: var(--font-size-main);
 }
 
+.gmb blockquote,
+.gmb hr + section blockquote {
+  background-image: none;
+  border: 1px solid white;
+  border-image-source: url("https://gmb.ra-press.com/img/backgrounds/GrungeNote1.png");
+  border-image-slice: 20 fill;
+  border-image-width: 20;
+  border-image-outset: 5;
+  border-image-repeat: round;
+  background-color: transparent;
+  background-size: 100% 100%;
+  padding: 3rem 2rem 3rem 2rem;
+  overflow: hidden;
+  box-shadow: unset;
+  margin-bottom: 0;
+}
+
+.gmb blockquote p {
+  font-style: normal;
+  font-size: var(--font-size-main);
+}
+
 /** Quote **/
 
 .gmb div.quote blockquote {

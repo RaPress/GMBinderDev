@@ -8,6 +8,8 @@
   text-shadow: none;
   bottom: 1.5rem;
   width: unset;
+  left: 50%;
+  right: 50%;
 }
 
 .gmb::after,

@@ -1,13 +1,19 @@
 /*** Call of Cthulhu Tables ***/
 
 .gmb table {
-  font-family: var(--font-main);
   margin-bottom: 0;
 }
 
+.gmb table,
+.gmb table em,
 .gmb table strong {
   font-family: var(--font-main);
+  font-family: var(--font-main);
   color: inherit;
+}
+
+.gmb table em {
+  font-weight: normal;
 }
 
 .gmb table thead th {

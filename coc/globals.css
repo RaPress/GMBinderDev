@@ -32,7 +32,7 @@
 
   /* Backgrounds */
   --color-bg-column: var(--color-septenary);
-  --color-bg-main: var(--color-senary);
+  --color-bg-main: var(--color-septenary);
   --color-bg-blockquote: var(--color-quaternary);
   --img-bg-page-number: url("/img/backgrounds/tentacle-pagenum-bg.png");
 
@@ -43,6 +43,6 @@
   --indent-main: 1rem;
 
   /* Tables */
-  --color-table-header: var(--color-quinary);
-  --color-table-header-text: var(--color-senary);
+  --color-table-header: var(--color-secondary);
+  --color-table-header-text: var(--color-septenary);
 }

@@ -1,9 +1,5 @@
 /*** Placeholder utilities ***/
 
-/* ------------------------------ */
-/* NOTE: Place after globals.css */
-/* ------------------------------ */
-
 .gmb div.placeholder-art {
   display: flex;
   flex-direction: column;
@@ -14,7 +10,7 @@
   height: 100px;
   right: 20px;
   bottom: 20px;
-  border: 15px ridge var(--color-strong-alt);
+  border: 15px ridge #7d373a;
 }
 
 .gmb div.placeholder-art p {

@@ -65,8 +65,8 @@
   border-image-repeat: unset;
   background-color: lightgray;
   background-size: 100% 100%;
-  padding: 3rem 2rem 3rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   overflow: hidden;
   box-shadow: unset;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }

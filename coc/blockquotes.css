@@ -19,18 +19,18 @@
 .gmb blockquote,
 .gmb hr + section blockquote {
   background-image: none;
-  border: 1px solid white;
-  border-image-source: url("https://gmb.ra-press.com/img/backgrounds/GrungeNote1.png");
+  border: 2px solid var(--color-secondary-alt);
+  border-image-source: none;
   border-image-slice: 20 fill;
   border-image-width: 20;
   border-image-outset: 5;
   border-image-repeat: round;
-  background-color: transparent;
+  background-color: var(--color-quaternary);
   background-size: 100% 100%;
-  padding: 3rem 2rem 3rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   overflow: hidden;
   box-shadow: unset;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .gmb blockquote p {

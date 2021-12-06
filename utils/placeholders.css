@@ -1,0 +1,30 @@
+/*** Placeholder utilities ***/
+
+/* ------------------------------ */
+/* NOTE: Place after globals.css */
+/* ------------------------------ */
+
+.gmb div.placeholder-art {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  right: 20px;
+  bottom: 20px;
+  border: 15px ridge var(--color-strong-alt);
+}
+
+.gmb div.placeholder-art p {
+  flex: 0 0 30;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.gmb div.placeholder-art h6 {
+  font-size: 30pt;
+  margin: 10px 0 0 0;
+  border-bottom: none;
+}

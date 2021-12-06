@@ -1,6 +1,7 @@
 /*** CoC Fonts ***/
 
 @import url("/css/fonts/GoingMad/stylesheet.css");
+@import url("/css/fonts/GameOfSquids/stylesheet.css");
 
 .font-size-1 {
   font-size: var(--font-size-1);

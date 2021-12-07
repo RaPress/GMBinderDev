@@ -45,3 +45,8 @@
 .gmb p + p {
   text-indent: var(--indent-main);
 }
+
+.gmb a,
+.gmb .custom-external-link {
+  color: var(--color-secondary-alt);
+}

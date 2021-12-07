@@ -34,3 +34,8 @@
   background-color: transparent;
   color: var(--color-text-main);
 }
+
+.gmb ul li table thead tr th,
+.gmb ul li table tbody tr td {
+  text-align-last: initial;
+}

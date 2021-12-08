@@ -170,7 +170,6 @@
 
 .gmb div.full-page-credits h3,
 .gmb div.full-page-credits h3 + p,
-.gmb div.full-page-credits ul li,
 .gmb .full-page-credits .version h3 {
   font-size: var(--font-size-3);
 }
@@ -192,6 +191,7 @@
 .gmb div.full-page-credits ul li {
   width: 75rem;
   margin: 0.25rem auto;
+  font-size: var(--font-size-2);
 }
 
 .gmb div.full-page-credits h3,

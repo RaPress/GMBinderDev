@@ -27,7 +27,10 @@
 }
 
 .gmb div.patreon blockquote h5 {
-  margin: 1rem 0 1rem 0;
+  font-family: var(--font-header-secondary);
+  font-size: var(--font-size-4);
+  margin: 1rem 0 2rem 0;
+  border-bottom: none;
 }
 
 .gmb div.patreon blockquote div.column-container h6 {

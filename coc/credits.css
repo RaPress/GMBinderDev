@@ -187,6 +187,17 @@
   display: inline;
 }
 
+.gmb .full-page-credits .version,
+.gmb div.full-page-credits .acknowledgements {
+  position: absolute;
+}
+
+.gmb div.full-page-credits .acknowledgements {
+  width: 50%;
+  left: 3rem;
+  bottom: 2rem;
+}
+
 .gmb div.full-page-credits .acknowledgements h4 {
   font-size: var(--font-size-2);
 }
@@ -202,8 +213,12 @@
   color: var(--color-text-main);
 }
 
+.gmb div.full-page-credits .acknowledgements img {
+  position: relative;
+  left: 25%;
+}
+
 .gmb .full-page-credits .version {
-  position: absolute;
   bottom: 30rem;
 }
 

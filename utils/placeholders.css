@@ -25,6 +25,14 @@
   border-bottom: none;
 }
 
-.gmb div.filler {
-  margin-top: 2em;
+.gmb div.filler-1 {
+  margin-top: 1rem;
+}
+
+.gmb div.filler-2 {
+  margin-top: 2rem;
+}
+
+.gmb div.filler-3 {
+  margin-top: 3rem;
 }

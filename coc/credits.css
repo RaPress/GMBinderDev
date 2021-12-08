@@ -161,6 +161,7 @@
   font-family: var(--font-header-secondary);
   color: var(--color-text-main);
   margin: 2rem 0 3rem 0;
+  font-style: italic;
 }
 
 .gmb div.full-page-credits h3,

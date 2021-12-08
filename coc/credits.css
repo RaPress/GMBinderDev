@@ -8,6 +8,7 @@
   right: 2rem;
   width: 34rem;
   text-align: center;
+  text-align-last: center;
 }
 
 .gmb div.patreon blockquote p:last-child {
@@ -15,7 +16,7 @@
 }
 
 .gmb div.patreon blockquote p {
-  font-size: 1em;
+  font-size: var(--font-size-1);
 }
 
 .gmb div.patreon blockquote img {
@@ -26,16 +27,25 @@
 }
 
 .gmb div.patreon blockquote h5 {
-  margin: 1rem rem 1rem rem;
+  margin: 1rem 0 1rem 0;
 }
 
 .gmb div.patreon blockquote div.column-container h6 {
-  margin: rem rem rem 0.5rem;
+  margin: 0 0 0 0.5rem;
 }
 
 /*** Patreon END ***/
 
 /*** Div ***/
+
+.gmb div.credits h1,
+.gmb div.credits h2,
+.gmb div.credits h3,
+.gmb div.credits h4,
+.gmb div.credits p {
+  text-align: center;
+  text-align-last: center;
+}
 
 .gmb div.credits {
   position: absolute;
@@ -51,19 +61,16 @@
 .gmb div.credits h1 {
   font-size: var(--font-size-5);
   font-weight: bold;
-  text-align: center;
 }
 
 .gmb div.credits h2 {
   font-size: var(--font-size-4);
-  text-align: center;
 }
 
 .gmb div.credits h3 {
   font-family: var(--font-header);
   font-weight: normal;
   font-size: var(--font-size-3);
-  text-align: center;
   border: none;
   column-span: none;
   background-image: none;
@@ -72,7 +79,6 @@
 .gmb div.credits h4 {
   font-size: var(--font-size-3);
   color: black;
-  text-align: center;
 }
 
 .gmb div.credits p {
@@ -81,8 +87,7 @@
   font-size: var(--font-size-2);
   color: var(--color-text-main);
   margin-top: 0.5rem;
-  text-align: center;
-  padding-bottom: rem;
+  padding-bottom: 0;
   text-shadow: none;
 }
 
@@ -107,15 +112,17 @@
   letter-spacing: -0.03em;
 }
 
+.gmb div.credits img.credits-image,
 .gmb div.credits .acknowledgements h4 {
   display: block;
+}
+
+.gmb div.credits .acknowledgements h4 {
   font-size: var(--font-size-2);
-  text-align: center;
 }
 
 .gmb div.credits img.credits-image {
   width: auto;
-  display: block;
   position: initial;
   margin-left: auto;
   margin-right: auto;
@@ -125,15 +132,20 @@
 
 /*** Full page ***/
 
-.gmb div.full-page-credits {
-  column-span: all;
-  text-align: center;
-}
-
+.gmb div.full-page-credits,
 .gmb div.full-page-credits h1,
-.gmb div.full-page-credits h2 {
+.gmb div.full-page-credits h2,
+.gmb div.full-page-credits ul li,
+.gmb .full-page-credits .version h3,
+.gmb div.full-page-credits .acknowledgements p,
+.gmb div.full-page-credits .acknowledgements h4 {
   text-align: center;
   text-align-last: center;
+}
+
+.gmb div.full-page-credits,
+.gmb .full-page-credits .version h3 {
+  column-span: all;
 }
 
 .gmb div.full-page-credits h1 {
@@ -149,7 +161,9 @@
 }
 
 .gmb div.full-page-credits h3,
-.gmb div.full-page-credits h3 + p {
+.gmb div.full-page-credits h3 + p,
+.gmb div.full-page-credits ul li,
+.gmb .full-page-credits .version h3 {
   font-size: var(--font-size-3);
 }
 
@@ -164,8 +178,6 @@
 }
 
 .gmb div.full-page-credits ul li {
-  font-size: var(--font-size-3);
-  text-align: center;
   width: 75rem;
   margin: 0 auto;
 }
@@ -176,17 +188,15 @@
 }
 
 .gmb div.full-page-credits .acknowledgements h4 {
-  text-align: center;
   font-size: var(--font-size-2);
 }
 
-.gmb div.full-page-credits .acknowledgements p {
+.gmb div.full-page-credits .acknowledgements p,
+.gmb div.full-page-credits .acknowledgements em strong {
   font-size: var(--font-size-1);
-  text-align: center;
 }
 
 .gmb div.full-page-credits .acknowledgements em strong {
-  font-size: var(--font-size-1);
   font-style: italic;
   font-weight: bold;
   color: var(--color-text-main);
@@ -199,7 +209,6 @@
 
 .gmb .full-page-credits .version ul {
   text-indent: 0;
-  /* column-count: 2; */
   margin: 0;
   padding: 0;
   line-height: 1.3rem;
@@ -208,13 +217,10 @@
 }
 
 .gmb .full-page-credits .version ul li {
-  margin: rem 1rem rem 1rem;
+  margin: 0 1rem 0 1rem;
 }
 
 .gmb .full-page-credits .version h3 {
-  text-align: center;
-  column-span: all;
-  font-size: var(--font-size-3);
   display: block;
 }
 

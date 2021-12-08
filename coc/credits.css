@@ -194,6 +194,16 @@
   font-size: var(--font-size-2);
 }
 
+.gmb div.full-page-credits .double-list {
+  margin-top: -3rem;
+  margin-left: -7rem;
+}
+
+.gmb div.full-page-credits .double-list ul li {
+  font-size: var(--font-size-1);
+  text-align-last: left;
+}
+
 .gmb div.full-page-credits h3,
 .gmb div.full-page-credits h3 + p {
   display: inline;

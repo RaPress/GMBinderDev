@@ -2,13 +2,17 @@
 
 /*** Patreon ***/
 
+.gmb div.patreon blockquote,
+.gmb div.patreon blockquote p {
+  text-align: center;
+  text-align-last: center;
+}
+
 .gmb div.patreon blockquote {
   position: absolute;
   bottom: 1.5rem;
   right: 2rem;
   width: 34rem;
-  text-align: center;
-  text-align-last: center;
 }
 
 .gmb div.patreon blockquote p:last-child {

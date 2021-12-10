@@ -20,6 +20,7 @@
 }
 
 .gmb div.ad-page div.grid img {
+  position: relative;
   width: 150px;
   box-shadow: 7px 7px 5px 1px #1a1b1b;
 }

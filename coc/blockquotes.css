@@ -55,7 +55,9 @@
 .gmb div.quote blockquote p {
   font-family: var(--font-main);
   text-align: center;
+  text-align-last: center;
   margin-bottom: 2rem;
+  margin-right: 1rem;
 }
 
 .gmb div.quote blockquote p + p {

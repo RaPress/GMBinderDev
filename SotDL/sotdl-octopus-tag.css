@@ -1,0 +1,146 @@
+/*** SotDL Octopus Tag specifics ***/
+
+/** Global properties **/
+
+:root {
+  /* Colors */
+  --color-primary: #191919;
+  --color-secondary: #1a321a;
+  --color-secondary-alt: #7d373a;
+  --color-tertiary: #a7a9ac;
+  --color-quaternary: #e4e3d8;
+  --color-quinary: #5b4d3b;
+  --color-senary: #ffffff;
+  --color-septenary: #f3f3f3;
+
+  /* Font sizes */
+  --font-size-1: 9pt;
+  --font-size-2: 11pt;
+  --font-size-3: 14pt;
+  --font-size-4: 20pt;
+  --font-size-5: 24pt;
+  --font-size-6: 30pt;
+  --font-size-7: 40pt;
+
+  /* Headers */
+  --color-headers-main: var(--color-secondary);
+  --font-headers: "Poison Hope";
+  --font-header-secondary: "Poison Hope";
+  --font-title: "GameOfSquids";
+  --font-size-h1: var(--font-size-5);
+  --font-size-h2: var(--font-size-4);
+  --font-size-h3: var(--font-size-3);
+  --font-size-h4: var(--font-size-2);
+  --font-size-h5: var(--font-size-1);
+
+  /* Backgrounds */
+  --color-bg-column: var(--color-septenary);
+  --color-bg-main: var(--color-septenary);
+  --color-bg-blockquote: var(--color-quaternary);
+  --img-bg-page-number: url("/img/backgrounds/tentacle-pagenum-bg.png");
+
+  /* Main Text */
+  --color-text-main: var(--color-primary);
+  --font-main: Georgia;
+  --font-size-main: var(--font-size-1);
+  --indent-main: 1rem;
+
+  /* Tables */
+  --color-table-header: var(--color-secondary);
+  --color-table-header-text: var(--color-septenary);
+}
+
+/** Global properties END **/
+
+/** Handout Backgrounds **/
+
+.gmb .handout .bg.stained-1 {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper.jpg")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-1-ripped {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-ripped.png")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-2 {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-2.png")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-2-ripped {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-2-ripped.png")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-3 {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-3.jpg")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-4 {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-4.png")
+    no-repeat center center;
+}
+
+.gmb .handout .bg.stained-4-ripped {
+  background: url("https://gmb.ra-press.com/img/backgrounds/water-stained-paper-4-ripped.png")
+    no-repeat center center;
+}
+/** Handout Backgrounds END **/
+
+/** Blurs **/
+
+span.blur-1 {
+  display: inline-block;
+  color: transparent;
+  text-shadow: 0 0 10px var(--color-secondary-alt);
+  filter: blur(1px);
+}
+
+span.blur-2 {
+  display: inline-block;
+  color: transparent;
+  text-shadow: 0 0 12px var(--color-secondary-alt);
+  filter: blur(2px);
+}
+
+span.blur-3 {
+  display: inline-block;
+  color: transparent;
+  text-shadow: 0 0 14px var(--color-secondary-alt);
+  filter: blur(2px);
+}
+
+span.no-blur {
+  color: var(--color-secondary-alt);
+  text-shadow: none;
+  filter: blur(0);
+  font-size: 40px;
+}
+/** Blurs END **/
+
+/** Title **/
+
+.gmb div.title h1 {
+  position: absolute;
+  left: auto;
+  right: auto;
+  top: 18rem;
+  font-family: "GameOfSquids";
+  font-size: 75pt;
+  text-align: center;
+  font-weight: normal;
+  text-transform: none;
+  text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000,
+    3px 7px 3px #000, 4px 8px 3px #000;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-fill-color: var(--color-quaternary);
+}
+
+.gmb div.title h1 span {
+  margin-left: 35rem;
+}
+
+/** Title END **/

@@ -42,6 +42,7 @@
   font-family: var(--font-main);
   color: var(--font-color-main);
   text-transform: uppercase;
+  margin-bottom: 0.25rem;
   border-bottom: none;
 }
 

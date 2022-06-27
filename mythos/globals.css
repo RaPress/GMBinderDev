@@ -1,58 +1,57 @@
 /*** Mythos Global properties ***/
 
-/** Font imports **/
-
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/fonts/Andesite/stylesheet.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/fonts/MarketDeco/stylesheet.css");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap");
-
 :root {
   /* Colors */
-  --color-primary: #191919;
-  --color-primary-glare: #d6ede6;
-  --color-secondary: #ffe5af;
-  --color-tertiary: #37585b;
-  --color-quaternary: #333234;
-  --color-quaternary-glare: #515153;
-  --color-quinary: #38212b;
-  --color-quinary-glare: #55484f;
-  --color-senary: #251325;
-  --color-septenary: #473839;
+  --color-1: #191919;
+  --color-2: #ffe5af;
+  --color-3: #37585b;
+  --color-3-glare: #d6ede6;
+  --color-4: #333234;
+  --color-4-glare: #515153;
+  --color-5: #38212b;
+  --color-5-glare: #55484f;
+  --color-6: #251325;
+  --color-7: #473839;
 
   /* Fonts */
-  --font-primary: "Raleway", sans-serif;
-  --font-secondary: "MarketDeco";
-  --font-tertiary: "Andesite";
-  --font-size-primary: 9pt;
-  --font-size-secondary: 11pt;
-  --font-size-tertiary: 14pt;
-  --font-size-quaternary: 24pt;
-  --font-size-quinary: 28pt;
-  --font-size-senary: 32pt;
+  --font-1: "Raleway", sans-serif;
+  --font-2: "MarketDeco";
+  --font-3: "Andesite";
+  --font-size-small: 0.9rem;
+  --font-size-1: 1rem;
+  --font-size-2: 1.2rem;
+  --font-size-3: 1.4rem;
+  --font-size-4: 2rem;
+  --font-size-5: 2.4rem;
+  --font-size-6: 2.8rem;
+  --font-size-7: 3.2rem;
+  --font-size-8: 4rem;
+  --font-size-9: 4.5rem;
+  --font-size-10: 5rem;
 
   /* Headers */
-  --font-title: var(--font-tertiary);
-  --font-header-main: var(--font-secondary);
-  --color-header-main: var(--color-secondary);
-  --font-size-h1: var(--font-size-quinary);
-  --font-size-h2: var(--font-size-quaternary);
-  --font-size-h3: var(--font-size-tertiary);
-  --font-size-h4: var(--font-size-secondary);
-  --font-size-h5: var(--font-size-secondary);
-  --font-size-h6: var(--font-size-secondary);
+  --font-title: var(--font-3);
+  --font-header-main: var(--font-2);
+  --color-header-main: var(--color-3-glare);
+  --font-size-h1: var(--font-size-5);
+  --font-size-h2: var(--font-size-4);
+  --font-size-h3: var(--font-size-3);
+  --font-size-h4: var(--font-size-2);
+  --font-size-h5: var(--font-size-2);
+  --font-size-h6: var(--font-size-2);
 
   /* Background */
-  --color-bg-primary: var(--color-septenary);
-  --color-bg-blockquote: var(--color-quaternary);
+  --color-bg-primary: var(--color-5-glare);
+  --color-bg-blockquote: var(--color-4);
   --color-gradient-main: linear-gradient(
     90deg,
-    var(--color-quaternary) 0%,
+    var(--color-4) 0%,
     var(--color-tertiary) 100%
   );
   --color-gradient-shade: linear-gradient(
     90deg,
-    var(--color-quaternary) 0%,
-    var(--color-quaternary-glare) 100%
+    var(--color-4) 0%,
+    var(--color-4-glare) 100%
   );
   --color-gradient-alt: linear-gradient(
     90deg,
@@ -61,17 +60,17 @@
   );
   --color-gradient-alt-shade: linear-gradient(
     90deg,
-    var(--color-senary) 0%,
-    var(--color-septenary) 100%
+    var(--color-6) 0%,
+    var(--color-7) 100%
   );
 
   /* Main Text */
-  --font-text-primary: var(--font-primary);
-  --color-text-primary: var(--color-primary);
-  --font-size-main-text: var(--font-size-primary);
+  --font-text-primary: var(--font-1);
+  --color-text-primary: var(--color-2);
+  --font-size-main-text: var(--font-size-1);
   --indent-main: 1em;
 
   /* Tables */
-  --color-table-header: var(--color-quinary);
-  --color-table-header-text: var(--color-secondary);
+  --color-table-header: var(--color-5);
+  --color-table-header-text: var(--color-2);
 }

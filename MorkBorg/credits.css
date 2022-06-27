@@ -12,7 +12,9 @@
 .gmb div.credits h3,
 .gmb div.credits h4,
 .gmb div.credits strong,
-.gmb div.credits em {
+.gmb div.credits em,
+.gmb div.credits div.acknowledgements p,
+.gmb div.credits div.acknowledgements strong {
   justify-content: center;
   align-items: center;
 }

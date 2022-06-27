@@ -37,15 +37,15 @@
   width: 215.9mm;
   padding: 1cm 1cm 1cm 1cm;
   column-fill: auto;
-  column-count: 1;
-  /* column-gap: 0.4cm; */
-  /* column-width: 9cm; */
-  -webkit-column-count: 1;
-  /* -webkit-column-gap: 0.4cm; */
-  /* -webkit-column-width: 9cm; */
-  -moz-column-count: 1;
-  /* -moz-column-gap: 0.4cm; */
-  /* -moz-column-width: 9cm; */
+  column-count: 2;
+  column-gap: 0.4cm;
+  column-width: 9cm;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 0.4cm;
+  -webkit-column-width: 9cm;
+  -moz-column-count: 2;
+  -moz-column-gap: 0.4cm;
+  -moz-column-width: 9cm;
 }
 
 .gmb a,

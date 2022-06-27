@@ -1,0 +1,58 @@
+/*** MÖRK BORG Cover ***/
+
+.gmb div.cover {
+  background-color: var(--color-bg-yellow);
+}
+
+.gmb div.cover h1 {
+  margin: 0;
+  background-image: none;
+  font-family: var(--font-header-title);
+  font-size: 50pt;
+  text-align: center;
+  font-weight: normal;
+  color: var(--color-text-black);
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000,
+    3px 7px 3px #000, 4px 8px 3px #000;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-fill-color: #f3ebebd1;
+}
+
+.gmb div.cover h2 {
+  font-family: var(--font-header-main);
+  color: var(--color-text-black);
+  font-size: 18pt;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000,
+    3px 7px 3px #000, 4px 8px 3px #000;
+}
+
+.gmb div.cover div.issue-date h3 {
+  color: var(--color-text-black);
+  font-size: 13pt;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.gmb div.cover img.mb-logo {
+  position: absolute;
+  width: 140px;
+  bottom: 35px;
+  left: 20px;
+  z-index: 5;
+  transform: rotate(-10deg);
+}
+
+.gmb p.cover-footer,
+.gmb p.cover-footer em {
+  font-family: "Alegreya";
+  bottom: 15px;
+  left: 180px;
+  text-align: justify;
+  font-size: 8pt;
+  width: 200px;
+  color: var(--color-text-black);
+}

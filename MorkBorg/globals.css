@@ -1,0 +1,50 @@
+/*** MÖRK BORG Global properties ***/
+
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-black: #020000;
+  --color-yellow: #ffe800;
+  --color-pink: #ff41b4;
+  --color-gray: #bfc1c1;
+
+  /* Font sizes */
+  --font-size-1: 9pt;
+  --font-size-2: 11pt;
+  --font-size-3: 14pt;
+  --font-size-4: 20pt;
+  --font-size-5: 24pt;
+  --font-size-6: 30pt;
+  --font-size-7: 40pt;
+
+  /* Headers */
+  --font-header-title: "Chomsky";
+  --font-header-main: "Deadhead Classic";
+  --font-header-secondary: "Alegreya";
+  --font-size-h1: var(--font-size-5);
+  --font-size-h2: var(--font-size-4);
+  --font-size-h3: var(--font-size-3);
+  --font-size-h4: var(--font-size-2);
+  --font-size-h5: var(--font-size-1);
+
+  /* Backgrounds */
+  --color-bg-white: var(--color-white);
+  --color-bg-black: var(--color-black);
+  --color-bg-yellow: var(--color-yellow);
+  --color-bg-pink: var(--color-pink);
+  --color-bg-gray: var(--color-gray);
+
+  /* Main Text */
+  --color-text-black: var(--color-black);
+  --color-text-white: var(--color-white);
+  --color-text-yellow: var(--color-yellow);
+  --color-text-pink: var(--color-pink);
+  --color-text-gray: var(--color-gray);
+  --font-main: Georgia;
+  --font-size-main: var(--font-size-1);
+  --indent-main: 1rem;
+
+  /* Tables */
+  --color-table-header: var(--color-secondary);
+  --color-table-header-text: var(--color-septenary);
+}

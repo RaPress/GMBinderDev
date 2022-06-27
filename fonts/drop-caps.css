@@ -1,0 +1,40 @@
+/*** Drop Cap Fonts ***/
+
+@import url("https://gmb.ra-press.com/css/fonts/BlavickeCapitals/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/CamleotCaps/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/CarrickCaps/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/CheshireInitials/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Ehmcke-FrakturInitialen/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/FloranaInitials/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/GothicCornerCaps/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/GothicLeaf/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/GoudyInitialen/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/IceCaps/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/KinigsteinCaps/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/LimeBlossomCaps/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Regal/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/RomantiqueInitials/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/RoyalInitialen/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Rudelsberg/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/WolnoughCapitals/stylesheet.css");
+
+:root {
+  --font-drop-cap-1: "royal initialen";
+  --font-drop-cap-2: "goudy initialen";
+  --font-drop-cap-3: "gothic leaf";
+  --font-drop-cap-4: "carrick caps";
+  --font-drop-cap-5: "ice caps";
+  --font-drop-cap-6: "kinigstein caps";
+  --font-drop-cap-7: "lime blossom caps";
+  --font-drop-cap-8: "blavicke capitals";
+  --font-drop-cap-9: "wolnough capitals";
+  --font-drop-cap-10: "ehmcke-fraktur initialen";
+  --font-drop-cap-11: "cheshire initials";
+  --font-drop-cap-12: "florana initials";
+  --font-drop-cap-13: "romantique initials";
+  --font-drop-cap-14: "carrick caps";
+  --font-drop-cap-15: "camelot caps";
+  --font-drop-cap-16: "gothic corner caps";
+  --font-drop-cap-17: "regal";
+  --font-drop-cap-18: "rudelsberg initialen";
+}

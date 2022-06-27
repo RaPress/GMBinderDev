@@ -6,9 +6,10 @@
 
 .gmb div.cover h1 {
   margin: 0;
+  margin-top: 3rem;
   background-image: none;
   font-family: var(--font-header-title);
-  font-size: 50pt;
+  font-size: var(--font-size-max);
   text-align: center;
   font-weight: normal;
   color: var(--color-text-black);
@@ -22,7 +23,7 @@
 .gmb div.cover h2 {
   font-family: var(--font-header-main);
   color: var(--color-text-black);
-  font-size: 18pt;
+  font-size: var(--font-size-h2);
   font-style: italic;
   text-align: center;
   text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000,
@@ -31,7 +32,7 @@
 
 .gmb div.cover div.issue-date h3 {
   color: var(--color-text-black);
-  font-size: 13pt;
+  font-size: var(--font-size-h3);
   position: absolute;
   right: 20px;
   top: 20px;
@@ -52,7 +53,7 @@
   bottom: 15px;
   left: 180px;
   text-align: justify;
-  font-size: 8pt;
+  font-size: var(--font-size-1);
   width: 200px;
   color: var(--color-text-black);
 }

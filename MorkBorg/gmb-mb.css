@@ -63,7 +63,7 @@
         width: 215.9mm; */
   padding: 0.7cm 0cm 0.7cm 0.8cm;
   column-fill: auto;
-  column-count: 2;
+  /* column-count: 2;
   column-gap: 0.1cm;
   column-width: 6cm;
   -webkit-column-count: 2;
@@ -71,7 +71,7 @@
   -webkit-column-width: 6cm;
   -moz-column-count: 2;
   -moz-column-gap: 0.1cm;
-  -moz-column-width: 6cm;
+  -moz-column-width: 6cm; */
 }
 
 .gmb a,
@@ -226,8 +226,6 @@
 /*** Headers END ***/
 
 /*** Cover ***/
-
-
 
 /*** Cover END ***/
 

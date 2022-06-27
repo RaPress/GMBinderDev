@@ -1,0 +1,14 @@
+/*** MÖRK BORG 2 columns ***/
+
+.gmb {
+  column-fill: auto;
+  column-count: 2;
+  column-gap: 0.1cm;
+  column-width: 6cm;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 0.1cm;
+  -webkit-column-width: 6cm;
+  -moz-column-count: 2;
+  -moz-column-gap: 0.1cm;
+  -moz-column-width: 6cm;
+}

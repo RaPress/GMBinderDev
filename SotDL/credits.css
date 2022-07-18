@@ -189,6 +189,10 @@
   color: var(--color-text-main);
 }
 
+.gmb div.full-page-credits .acknowledgements img {
+  position: relative;
+}
+
 .gmb .full-page-credits .version {
   position: absolute;
   bottom: 300px;

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Rlyehian";
+  src: url("Rlyehian.eot");
+  src: local("☺"), url("Rlyehian.woff") format("woff"),
+    url("Rlyehian.ttf") format("truetype"), url("Rlyehian.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RlyehianBase";
+  src: url("RlyehianBase.eot");
+  src: local("☺"), url("RlyehianBase.woff") format("woff"),
+    url("RlyehianBase.ttf") format("truetype"),
+    url("RlyehianBase.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

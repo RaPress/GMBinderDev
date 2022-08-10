@@ -1,0 +1,82 @@
+/** Complete Fonts Collection **/
+
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Amarante&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Frijole&family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&family=Inconsolata:wght@400;700;900&family=Irish+Grover&family=Metal+Mania&family=Metamorphous&family=Rakkas&family=Ruslan+Display&family=Uncial+Antiqua&display=swap");
+@import url("https://gmb.ra-press.com/css/fonts/Alegreya/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Amstrong/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Andagis/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Andesite/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Annabel/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Aseina/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Atlantis/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Billiard/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Blackletter/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/BlackVelvet2/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Burvetica/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/CaliforniaFreestyle/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/CallingCode/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Chomsky/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/CookbookTitle/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/CoolUrban90s/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Cunigast/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/DeadheadClassic/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Demonius/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Expert/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/FetteTrumpDeutsch/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/GameOfSquids/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Giant/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/HemiHead/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Hillpark/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/History/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Hydrant/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Insightly/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Jumbo/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Kiko/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Lansdowne/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Lifer/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Lovesurely/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Metal/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Mindset/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/MonAmourFrakturBroken/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Murray/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/NewCapricorn/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Obsypac/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Octopus/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/OldNewspaperTypes/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Ollie/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Pittsbrook/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Ravenholm/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Rikiar/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Riotic/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Rlyehian/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/RomeoJuliet/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/RuasThin/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Rudelsberg/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/SotDL/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Starla/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/TheMariamStory/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/TheMoney/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Thunder/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Valeria/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Viliaris/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/VultronBlack/stylesheet.css");
+@import url("https://gmb.ra-press.com/css/fonts/Watson/stylesheet.css");
+
+.font-size-1 {
+  font-size: var(--font-size-1);
+}
+
+.font-size-2 {
+  font-size: var(--font-size-2);
+}
+
+.font-size-3 {
+  font-size: var(--font-size-3);
+}
+
+.font-size-4 {
+  font-size: var(--font-size-4);
+}
+
+.font-size-5 {
+  font-size: var(--font-size-5);
+}

@@ -2,21 +2,21 @@
 
 @font-face {
   font-family: "Rlyehian";
-  src: url("/SotDL-Homebrew/assets/fonts/Rlyehian.ttf");
+  src: url("https://gmb.ra-press.com/css/fonts/Rlyehian.ttf");
 }
 
 @font-face {
   font-family: "Rlyehian Base";
-  src: url("/SotDL-Homebrew/assets/fonts/RlyehianBase.ttf");
+  src: url("https://gmb.ra-press.com/css/fonts/RlyehianBase.ttf");
 }
 
 /** Global properties **/
 
 :root {
-  --img-header-banner: url(../img/FromTheDeep/header-banner-from_the_deep.png);
-  --img-main-bg: url(../img/FromTheDeep/FromTheDeep-BG.jpg);
-  --img-bg-border: url(../img/FromTheDeep/FromTheDeep-bg-border.png);
-  --img-bg-page-number: url(../img/FromTheDeep/Tentacles.png);
+  --img-header-banner: url(https://gmb.ra-press.com/img/FromTheDeep/header-banner-from_the_deep.png);
+  --img-main-bg: url(https://gmb.ra-press.com/img/FromTheDeep/FromTheDeep-BG.jpg);
+  --img-bg-border: url(https://gmb.ra-press.com/img/FromTheDeep/FromTheDeep-bg-border.png);
+  --img-bg-page-number: url(https://gmb.ra-press.com/img/FromTheDeep/Tentacles.png);
   --color-headers-main: #3c4228;
   --color-text-main: #0f120b;
   --color-strong: #0f120b;

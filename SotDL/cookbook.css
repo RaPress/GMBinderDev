@@ -117,7 +117,7 @@
 }
 
 .gmb div.recipe .ingredients ul li {
-  padding-bottom: 1rem;
+  padding-bottom: 0.75rem;
   color: #294668;
   font-weight: 700;
 }
@@ -251,7 +251,7 @@
 .gmb:nth-child(odd),
 .gmb:nth-child(odd):has(div[class*="title-page"]),
 .gmb:nth-child(odd):has(img[class*="full-page-img"]) {
-  padding: 1.5cm 2cm 1cm 0.6cm;
+  padding: 1.5cm 2.5cm 1cm 0.6cm;
   background: var(--img-main-bg-right);
 }
 

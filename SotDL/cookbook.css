@@ -1,0 +1,285 @@
+/*** SotDL Cookbook CSS ***/
+
+:root {
+  --img-main-bg-left: url(https://gmb.ra-press.com/img/backgrounds/bg-book-cover-blue-flowery-left.png);
+  --img-main-bg-right: url(https://gmb.ra-press.com/img/backgrounds/bg-book-cover-blue-flowery-right.png);
+  --color-secondary: #294668;
+  --font-header: "CookbookTitle";
+}
+
+/*** Cover ***/
+
+.gmb#p1,
+.gmb#p64 {
+  background: url(https://gmb.ra-press.com/img/backgrounds/bg_frame_lavish_blue.png);
+}
+
+.gmb div.title .banner h1 {
+  font-size: 40pt;
+  font-family: "CookbookTitle";
+  letter-spacing: 0.5rem;
+  text-shadow: 0 -2px rgba(0, 0, 0, 0.6);
+  background: -webkit-linear-gradient(transparent, transparent),
+    url(https://gmb.ra-press.com/img/backgrounds/gold-foil.jpg) repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #897c66c2;
+}
+
+.gmb img.cover-logo {
+  filter: drop-shadow(0 0 3px #d8c9b1e1);
+}
+
+/*** Cover END ***/
+
+/*** Drop Caps ***/
+
+.gmb article.drop-cap {
+  display: block;
+}
+
+.gmb article.drop-cap p:first-child {
+  text-indent: 0;
+}
+
+.gmb article.drop-cap p:first-child:first-letter {
+  font-family: "gothic leaf";
+  color: #2c5344;
+  float: left;
+  font-size: 55pt;
+  line-height: 60px;
+  padding: 10px 0px 0 3px;
+}
+
+.gmb section[id^="the-savory"] article.drop-cap p:first-child:first-letter {
+  color: #9d3a1f;
+}
+
+.gmb section[id^="the-drink"] article.drop-cap p:first-child:first-letter {
+  color: #1f5776;
+}
+
+.gmb section[id^="appendix-ii"] article.drop-cap p:first-child:first-letter {
+  color: #926a30;
+}
+
+/*** Drop Caps END ***/
+
+.gmb section[id^="appendix"] h2 {
+  font-size: 22pt;
+}
+
+/*** Recipe ***/
+
+.gmb div.recipe {
+  column-span: all;
+  padding: 10% 15%;
+}
+
+.gmb div.recipe ul {
+  text-indent: 1rem;
+}
+
+.gmb div.recipe p {
+  text-align: justify;
+}
+
+.gmb div.recipe h2,
+.gmb div.recipe h2 + ul li {
+  text-align: center;
+}
+
+.gmb div.recipe h2 + ul {
+  margin-bottom: 1rem;
+  text-indent: 0;
+}
+
+.gmb div.recipe h4 {
+  text-align: justify;
+}
+
+.gmb div.recipe h4 {
+  padding: 1rem 0 0.5rem 0;
+}
+
+.gmb div.recipe ol {
+  margin: 0;
+}
+
+.gmb div.recipe .ingredients hr {
+  visibility: visible;
+  border-top: 2px solid #294668;
+}
+
+.gmb div.recipe .ingredients ul {
+  column-count: 2;
+  text-indent: unset;
+}
+
+.gmb div.recipe .ingredients ul li {
+  padding-bottom: 1rem;
+  color: #294668;
+  font-weight: 700;
+}
+
+.gmb div.recipe .ingredients ul li strong {
+  color: #294668;
+  font-weight: bolder;
+  font-size: 12pt;
+}
+
+/*** Recipe END ***/
+
+.gmb div.tables #appendix-i-shopping-recipes-the-savory h4 {
+  margin-right: 10rem;
+}
+
+.gmb section#grandma-ethels-hearty-cookbook-2-introduction blockquote {
+  padding-right: 3rem;
+}
+
+/*** Holy Ground ***/
+
+.gmb div.holy-ground img {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.gmb div.holy-ground h5 {
+  font-size: 12pt;
+  font-family: var(--font-header);
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+/*** Holy Ground END ***/
+
+/*** Credits ***/
+
+.gmb div.patreon blockquote {
+  width: 27rem;
+  bottom: 3rem;
+}
+
+.gmb div.full-page-credits {
+  padding-top: 1.5cm;
+}
+
+.gmb div.full-page-credits div.art-credit ul li {
+  text-align: justify;
+  width: unset;
+}
+
+.gmb div.full-page-credits div.art-credit ul {
+  margin: 0 10rem 0 7rem;
+}
+
+.gmb div.full-page-credits h1 {
+  font-size: var(--font-size-quinary);
+}
+
+.gmb div.full-page-credits h2 {
+  font-size: var(--font-size-quaternary);
+}
+
+.gmb div.patreon blockquote h3 {
+  font-size: var(--font-size-tertiary);
+}
+
+/*** Credits END ***/
+
+/*** Page Number ***/
+
+.gmb:nth-child(odd)::after,
+.gmb:nth-child(even)::after {
+  background-image: none;
+}
+
+.gmb:nth-child(odd) .pageNumber,
+.gmb:nth-child(even) .pageNumber {
+  bottom: 5rem;
+}
+
+.gmb:nth-child(odd) .pageNumber {
+  left: 70rem;
+}
+
+.gmb:nth-child(even) .pageNumber {
+  left: 6.5rem;
+}
+
+.gmb .pageNumber,
+.gmb .pageNumber.auto {
+  color: #ffffff;
+  text-shadow: 1px 1px 0 #4e6548, -1px 1px 0 #4e6548, 1px -1px 0 #4e6548,
+    -1px -1px 0 #4e6548, 0px 1px 0 #4e6548, 0px -1px 0 #4e6548,
+    -1px 0px 0 #4e6548, 1px 0px 0 #4e6548, 2px 2px 0 #4e6548, -2px 2px 0 #4e6548,
+    2px -2px 0 #4e6548, -2px -2px 0 #4e6548, 0px 2px 0 #4e6548,
+    0px -2px 0 #4e6548, -2px 0px 0 #4e6548, 2px 0px 0 #4e6548, 1px 2px 0 #4e6548,
+    -1px 2px 0 #4e6548, 1px -2px 0 #4e6548, -1px -2px 0 #4e6548,
+    2px 1px 0 #4e6548, -2px 1px 0 #4e6548, 2px -1px 0 #4e6548,
+    -2px -1px 0 #4e6548;
+}
+
+/*** Page Number END ***/
+
+/*** Page formatting ***/
+
+.gmb div.title-page h1 {
+  text-align: center;
+  margin-top: 50%;
+}
+
+.gmb:nth-child(even):not(:has(div[class*="recipe"])) {
+  background: url(https://gmb.ra-press.com/img/backgrounds/bg-book-cover-blue-left.png);
+  padding: 1.5cm 0.65cm 1cm 2cm;
+}
+
+.gmb:nth-child(odd):not(:has(div[class*="recipe"])) {
+  background: url(https://gmb.ra-press.com/img/backgrounds/bg-book-cover-blue-right.png);
+}
+
+.gmb:nth-child(even),
+.gmb:nth-child(even):has(div[class*="title-page"]),
+.gmb:nth-child(even):has(img[class*="full-page-img"]) {
+  padding: 1.5cm 0.65cm 1cm 2.5cm;
+  background: var(--img-main-bg-left);
+}
+
+.gmb:nth-child(odd),
+.gmb:nth-child(odd):has(div[class*="title-page"]),
+.gmb:nth-child(odd):has(img[class*="full-page-img"]) {
+  padding: 1.5cm 2cm 1cm 0.6cm;
+  background: var(--img-main-bg-right);
+}
+
+/*** Page formatting END ***/
+
+/*** TOC ***/
+
+.gmb .toc {
+  column-span: all;
+  padding: 1cm 3cm 1cm 2cm;
+}
+
+.gmb .toc h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.gmb .toc li h3 {
+  font-size: var(--font-size-tertiary);
+  padding-top: 1rem;
+}
+
+.gmb .toc li h3 span:nth-child(2):after {
+  content: "";
+}
+
+.gmb .toc li h4 {
+  font-size: var(--font-size-secondary);
+}
+
+/*** TOC END ***/

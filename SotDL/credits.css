@@ -121,6 +121,25 @@
   margin-right: auto;
 }
 
+.gmb div.credits blockquote {
+  font-size: 1em;
+}
+
+.gmb div.credits blockquote p {
+  margin-top: 0;
+}
+
+.gmb div.credits blockquote div.inline-text {
+  text-align: center;
+}
+
+.gmb div.credits blockquote div.inline-text h3,
+.gmb div.credits blockquote div.inline-text h3 + p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
 /*** Div END ***/
 
 /*** Full page ***/
